@@ -1,0 +1,6330 @@
+{
+    "tasks": [
+        "RSA Exponent",
+        "Ugly website",
+        "Safe notes",
+        "Discreet",
+        "FSMir",
+        "catto",
+        "ATM service",
+        "GCM",
+        "GoSynthesizeTheFlagYourself",
+        "Dominoes",
+        "Cache Review",
+        "Phonebook",		
+        "wierd signals",
+        "FSMir 2",
+        "Shellcode Executor PRO",
+        "Matryoshka",
+        "FirmwareUpdater",
+        "md5service",
+        "CHANGE_VM",
+        "Will it stop?",
+        "Ugliest Website",
+        "Sanity check",
+        "Scam generator",
+        "Fault EC",
+        "Walking Simulator",
+        "p&q Service",
+        "Scam generator FIXED",
+        "Cache review but with no presents"
+    ],
+    "standings": [
+        {
+            "pos": 1,
+            "team": "perfect blue",
+            "score": 6245,
+            "taskStats": {
+                "Walking Simulator": {
+                    "points": 474,
+                    "time": 1577001900
+                },
+                "catto": {
+                    "points": 420,
+                    "time": 1577001770
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576992760
+                },
+                "Cache review but with no presents": {
+                    "points": 435,
+                    "time": 1576956723
+                },
+                "Discreet": {
+                    "points": 373,
+                    "time": 1576929907
+                },
+                "Fault EC": {
+                    "points": 394,
+                    "time": 1576922628
+                },
+                "ATM service": {
+                    "points": 394,
+                    "time": 1576908579
+                },
+                "GCM": {
+                    "points": 500,
+                    "time": 1576902705
+                },
+                "RSA Exponent": {
+                    "points": 326,
+                    "time": 1576893805
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576888927
+                },
+                "CHANGE_VM": {
+                    "points": 347,
+                    "time": 1576885113
+                },
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576882744
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576881430
+                },
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576877854
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576877241
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576876578
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576876256
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576875598
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576873937
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576873925
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873465
+                }
+            },
+            "lastAccept": 1577001900
+        },
+        {
+            "pos": 2,
+            "team": "The Flat Network Society",
+            "score": 5032,
+            "taskStats": {
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576996849
+                },
+                "Ugliest Website": {
+                    "points": 474,
+                    "time": 1576993426
+                },
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576988306
+                },
+                "CHANGE_VM": {
+                    "points": 347,
+                    "time": 1576973986
+                },
+                "ATM service": {
+                    "points": 394,
+                    "time": 1576969510
+                },
+                "RSA Exponent": {
+                    "points": 326,
+                    "time": 1576962683
+                },
+                "Cache review but with no presents": {
+                    "points": 435,
+                    "time": 1576946292
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576941123
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576940068
+                },
+                "Scam generator": {
+                    "points": 474,
+                    "time": 1576931692
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576897717
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576894392
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576892540
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576891632
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576886001
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576881026
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873611
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576872356
+                }
+            },
+            "lastAccept": 1576996849
+        },
+        {
+            "pos": 3,
+            "team": "grimpan",
+            "score": 4778,
+            "taskStats": {
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576994063
+                },
+                "Safe notes": {
+                    "points": 500,
+                    "time": 1576991214
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576978621
+                },
+                "Cache review but with no presents": {
+                    "points": 435,
+                    "time": 1576976248
+                },
+                "Scam generator FIXED": {
+                    "points": 500,
+                    "time": 1576970095
+                },
+                "Scam generator": {
+                    "points": 474,
+                    "time": 1576918415
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576880180
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576877763
+                },
+                "GoSynthesizeTheFlagYourself": {
+                    "points": 453,
+                    "time": 1576877576
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576875708
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576875553
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576875500
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576875286
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576874829
+                },
+                "CHANGE_VM": {
+                    "points": 347,
+                    "time": 1576874532
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576873292
+                }
+            },
+            "lastAccept": 1576994063
+        },
+        {
+            "pos": 4,
+            "team": "Sice Squad",
+            "score": 4644,
+            "taskStats": {
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576957274
+                },
+                "Walking Simulator": {
+                    "points": 474,
+                    "time": 1576955396
+                },
+                "ATM service": {
+                    "points": 394,
+                    "time": 1576939710
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576902614
+                },
+                "Fault EC": {
+                    "points": 394,
+                    "time": 1576896048
+                },
+                "RSA Exponent": {
+                    "points": 326,
+                    "time": 1576895575
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576892199
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576885581
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576883181
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576880836
+                },
+                "CHANGE_VM": {
+                    "points": 347,
+                    "time": 1576878946
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576876001
+                },
+                "catto": {
+                    "points": 420,
+                    "time": 1576875480
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576875057
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576874111
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873401
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576873218
+                }
+            },
+            "lastAccept": 1576957274
+        },
+        {
+            "pos": 5,
+            "team": "Corrupted Pwnis",
+            "score": 4558,
+            "taskStats": {
+                "ATM service": {
+                    "points": 394,
+                    "time": 1576985136
+                },
+                "Ugliest Website": {
+                    "points": 474,
+                    "time": 1576977571
+                },
+                "Cache review but with no presents": {
+                    "points": 435,
+                    "time": 1576969642
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576943347
+                },
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576936442
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576935161
+                },
+                "CHANGE_VM": {
+                    "points": 347,
+                    "time": 1576903040
+                },
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576894068
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576894056
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576889475
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576887781
+                },
+                "RSA Exponent": {
+                    "points": 326,
+                    "time": 1576886763
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576878031
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576877874
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576877416
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576875282
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872313
+                }
+            },
+            "lastAccept": 1576985136
+        },
+        {
+            "pos": 6,
+            "team": "redpwn",
+            "score": 3675,
+            "taskStats": {
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576980285
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576976633
+                },
+                "Discreet": {
+                    "points": 373,
+                    "time": 1576975480
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576973372
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576969348
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576968640
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576958850
+                },
+                "ATM service": {
+                    "points": 394,
+                    "time": 1576951757
+                },
+                "RSA Exponent": {
+                    "points": 326,
+                    "time": 1576910809
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576899359
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576898632
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576894003
+                },
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576883471
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576873133
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872283
+                }
+            },
+            "lastAccept": 1576980285
+        },
+        {
+            "pos": 7,
+            "team": "efiens",
+            "score": 3235,
+            "taskStats": {
+                "Fault EC": {
+                    "points": 394,
+                    "time": 1576997130
+                },
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576935585
+                },
+                "Discreet": {
+                    "points": 373,
+                    "time": 1576928478
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576926494
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576910119
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576908489
+                },
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576907847
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576907136
+                },
+                "RSA Exponent": {
+                    "points": 326,
+                    "time": 1576906568
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576897933
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576897748
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576896088
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576894367
+                }
+            },
+            "lastAccept": 1576997130
+        },
+        {
+            "pos": 8,
+            "team": "excusemewtf",
+            "score": 3099,
+            "taskStats": {
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1577005015
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576959268
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576918275
+                },
+                "GoSynthesizeTheFlagYourself": {
+                    "points": 453,
+                    "time": 1576900564
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576882781
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576881942
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576879890
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576878949
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576877596
+                },
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576876801
+                },
+                "CHANGE_VM": {
+                    "points": 347,
+                    "time": 1576875327
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576872339
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872189
+                }
+            },
+            "lastAccept": 1577005015
+        },
+        {
+            "pos": 9,
+            "team": "Balsn",
+            "score": 3081,
+            "taskStats": {
+                "md5service": {
+                    "points": 263,
+                    "time": 1576999588
+                },
+                "Fault EC": {
+                    "points": 394,
+                    "time": 1576953798
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576938472
+                },
+                "p&q Service": {
+                    "points": 453,
+                    "time": 1576922607
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576909464
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576905667
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576903834
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576903514
+                },
+                "Discreet": {
+                    "points": 373,
+                    "time": 1576902865
+                },
+                "RSA Exponent": {
+                    "points": 326,
+                    "time": 1576899019
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576897056
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576895033
+                }
+            },
+            "lastAccept": 1576999588
+        },
+        {
+            "pos": 10,
+            "team": "SaudiPwners",
+            "score": 3068,
+            "taskStats": {
+                "md5service": {
+                    "points": 263,
+                    "time": 1576995379
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576981468
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576971977
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576969776
+                },
+                "p&q Service": {
+                    "points": 453,
+                    "time": 1576961404
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576934827
+                },
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576896603
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576895449
+                },
+                "CHANGE_VM": {
+                    "points": 347,
+                    "time": 1576890045
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576884478
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576879262
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576873798
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872833
+                }
+            },
+            "lastAccept": 1576995379
+        },
+        {
+            "pos": 11,
+            "team": "$wag",
+            "score": 3030,
+            "taskStats": {
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576913853
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576901293
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576901154
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576900547
+                },
+                "ATM service": {
+                    "points": 394,
+                    "time": 1576899167
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576893988
+                },
+                "CHANGE_VM": {
+                    "points": 347,
+                    "time": 1576889636
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576887367
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576886153
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576884744
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576883850
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576883779
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576874675
+                }
+            },
+            "lastAccept": 1576913853
+        },
+        {
+            "pos": 12,
+            "team": "Cr0w",
+            "score": 2655,
+            "taskStats": {
+                "catto": {
+                    "points": 420,
+                    "time": 1576949467
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576887714
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576885315
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576882942
+                },
+                "Discreet": {
+                    "points": 373,
+                    "time": 1576881681
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576880767
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576880697
+                },
+                "GoSynthesizeTheFlagYourself": {
+                    "points": 453,
+                    "time": 1576879619
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576875761
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576875329
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576873592
+                }
+            },
+            "lastAccept": 1576949467
+        },
+        {
+            "pos": 13,
+            "team": "Aleph",
+            "score": 2437,
+            "taskStats": {
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576935845
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576924033
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576921800
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576915785
+                },
+                "CHANGE_VM": {
+                    "points": 347,
+                    "time": 1576913087
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576901204
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576900438
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576899593
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576897860
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576897062
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576896658
+                }
+            },
+            "lastAccept": 1576935845
+        },
+        {
+            "pos": 14,
+            "team": "EJr",
+            "score": 2396,
+            "taskStats": {
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576976750
+                },
+                "RSA Exponent": {
+                    "points": 326,
+                    "time": 1576970515
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576957451
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576923841
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576903035
+                },
+                "CHANGE_VM": {
+                    "points": 347,
+                    "time": 1576897237
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576878686
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576877770
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576875576
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576872751
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872120
+                }
+            },
+            "lastAccept": 1576976750
+        },
+        {
+            "pos": 15,
+            "team": "NorthernCoalition",
+            "score": 2305,
+            "taskStats": {
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576989954
+                },
+                "Fault EC": {
+                    "points": 394,
+                    "time": 1576977674
+                },
+                "Discreet": {
+                    "points": 373,
+                    "time": 1576971562
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576950493
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576947593
+                },
+                "RSA Exponent": {
+                    "points": 326,
+                    "time": 1576918915
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576888092
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576883636
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873265
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576873153
+                }
+            },
+            "lastAccept": 1576989954
+        },
+        {
+            "pos": 16,
+            "team": "NowhereGrill",
+            "score": 2108,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576971919
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576966136
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576961593
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576961556
+                },
+                "RSA Exponent": {
+                    "points": 326,
+                    "time": 1576961538
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576951188
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576949710
+                },
+                "Discreet": {
+                    "points": 373,
+                    "time": 1576948725
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576943792
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576905843
+                }
+            },
+            "lastAccept": 1576971919
+        },
+        {
+            "pos": 17,
+            "team": "MagicStar",
+            "score": 1982,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576990573
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576988634
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576986175
+                },
+                "catto": {
+                    "points": 420,
+                    "time": 1576983661
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576983255
+                },
+                "Discreet": {
+                    "points": 373,
+                    "time": 1576965393
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576963641
+                },
+                "RSA Exponent": {
+                    "points": 326,
+                    "time": 1576939187
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576878465
+                }
+            },
+            "lastAccept": 1576990573
+        },
+        {
+            "pos": 18,
+            "team": "TokyoWesterns",
+            "score": 1776,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576913851
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576913763
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576913027
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576911938
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576903095
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576894522
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576894172
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576893657
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576885645
+                }
+            },
+            "lastAccept": 1576913851
+        },
+        {
+            "pos": 19,
+            "team": "Zeus WPI",
+            "score": 1639,
+            "taskStats": {
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576981979
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576979402
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576937276
+                },
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576932177
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576929861
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576928387
+                },
+                "RSA Exponent": {
+                    "points": 326,
+                    "time": 1576924414
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576878758
+                }
+            },
+            "lastAccept": 1576981979
+        },
+        {
+            "pos": 20,
+            "team": "shell collecting club",
+            "score": 1630,
+            "taskStats": {
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576993556
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576984590
+                },
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576960914
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576958017
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576944821
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576918985
+                },
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576900398
+                }
+            },
+            "lastAccept": 1576993556
+        },
+        {
+            "pos": 21,
+            "team": "LSE",
+            "score": 1506,
+            "taskStats": {
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576965528
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576962689
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576926173
+                },
+                "CHANGE_VM": {
+                    "points": 347,
+                    "time": 1576890315
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576886251
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576883863
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576880757
+                }
+            },
+            "lastAccept": 1576965528
+        },
+        {
+            "pos": 22,
+            "team": "From Sousse, with love",
+            "score": 1493,
+            "taskStats": {
+                "CHANGE_VM": {
+                    "points": 347,
+                    "time": 1576981390
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576972952
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576950852
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576949389
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576943517
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576922919
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576879255
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576874148
+                }
+            },
+            "lastAccept": 1576981390
+        },
+        {
+            "pos": 23,
+            "team": "1337B01S",
+            "score": 1440,
+            "taskStats": {
+                "md5service": {
+                    "points": 263,
+                    "time": 1576954796
+                },
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576950926
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576938790
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576926637
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576891294
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576884142
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576881400
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872399
+                }
+            },
+            "lastAccept": 1576954796
+        },
+        {
+            "pos": 24,
+            "team": "team_7even",
+            "score": 1419,
+            "taskStats": {
+                "md5service": {
+                    "points": 263,
+                    "time": 1576972656
+                },
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576964136
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576938064
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576904136
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576896743
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576887265
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576880356
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576876588
+                }
+            },
+            "lastAccept": 1576972656
+        },
+        {
+            "pos": 25,
+            "team": "SudoMan",
+            "score": 1409,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576998849
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576953958
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576943209
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576941232
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576916259
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576907513
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576901283
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576898809
+                }
+            },
+            "lastAccept": 1576998849
+        },
+        {
+            "pos": 26,
+            "team": "negasora",
+            "score": 1385,
+            "taskStats": {
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576973993
+                },
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576941147
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576938189
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576933084
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576931755
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576926514
+                }
+            },
+            "lastAccept": 1576973993
+        },
+        {
+            "pos": 27,
+            "team": "f2h",
+            "score": 1322,
+            "taskStats": {
+                "Discreet": {
+                    "points": 373,
+                    "time": 1576977250
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576973506
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576971505
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576946383
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576875021
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576873182
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872805
+                }
+            },
+            "lastAccept": 1576977250
+        },
+        {
+            "pos": 28,
+            "team": "AugustaHackersAnonymous",
+            "score": 1306,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576952461
+                },
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576899465
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576894669
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576891607
+                },
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576886231
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576879184
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873964
+                }
+            },
+            "lastAccept": 1576952461
+        },
+        {
+            "pos": 29,
+            "team": "HSA",
+            "score": 1195,
+            "taskStats": {
+                "md5service": {
+                    "points": 263,
+                    "time": 1576966601
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576956394
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576954084
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576884253
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576882821
+                },
+                "catto": {
+                    "points": 420,
+                    "time": 1576874937
+                }
+            },
+            "lastAccept": 1576966601
+        },
+        {
+            "pos": 30,
+            "team": "openctfid",
+            "score": 1184,
+            "taskStats": {
+                "Fault EC": {
+                    "points": 394,
+                    "time": 1576994259
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576938560
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576930822
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576914086
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576912040
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576889442
+                }
+            },
+            "lastAccept": 1576994259
+        },
+        {
+            "pos": 31,
+            "team": "ISITDTU",
+            "score": 1146,
+            "taskStats": {
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576912915
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576905115
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576902392
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576899152
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576897770
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576897563
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576891147
+                }
+            },
+            "lastAccept": 1576912915
+        },
+        {
+            "pos": 32,
+            "team": "pasdeteam",
+            "score": 1146,
+            "taskStats": {
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576962464
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576945015
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576942905
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576880807
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576877097
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576876561
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576875040
+                }
+            },
+            "lastAccept": 1576962464
+        },
+        {
+            "pos": 33,
+            "team": "InfoSecIITR",
+            "score": 1073,
+            "taskStats": {
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576940900
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576937680
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576934903
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576934772
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576932948
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576907803
+                }
+            },
+            "lastAccept": 1576940900
+        },
+        {
+            "pos": 34,
+            "team": "b1c",
+            "score": 1056,
+            "taskStats": {
+                "md5service": {
+                    "points": 263,
+                    "time": 1576899566
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576897252
+                },
+                "RSA Exponent": {
+                    "points": 326,
+                    "time": 1576893703
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576885625
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576883306
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576882364
+                }
+            },
+            "lastAccept": 1576899566
+        },
+        {
+            "pos": 35,
+            "team": "pwd",
+            "score": 1023,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576929606
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576928133
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576902886
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576899551
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576893258
+                }
+            },
+            "lastAccept": 1576929606
+        },
+        {
+            "pos": 36,
+            "team": "pewpewpew",
+            "score": 1010,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576987299
+                },
+                "ATM service": {
+                    "points": 394,
+                    "time": 1576950148
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576922393
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576912242
+                }
+            },
+            "lastAccept": 1576987299
+        },
+        {
+            "pos": 37,
+            "team": "Betz",
+            "score": 959,
+            "taskStats": {
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576970525
+                },
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576947998
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576947924
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576930390
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576930368
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576896068
+                }
+            },
+            "lastAccept": 1576970525
+        },
+        {
+            "pos": 38,
+            "team": "Forkbenders",
+            "score": 914,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576893322
+                },
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576889319
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576880072
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576875953
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872354
+                }
+            },
+            "lastAccept": 1576893322
+        },
+        {
+            "pos": 39,
+            "team": "Manf",
+            "score": 847,
+            "taskStats": {
+                "Fault EC": {
+                    "points": 394,
+                    "time": 1576961069
+                },
+                "p&q Service": {
+                    "points": 453,
+                    "time": 1576946506
+                }
+            },
+            "lastAccept": 1576961069
+        },
+        {
+            "pos": 40,
+            "team": "PETRPEN",
+            "score": 821,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576968185
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576933508
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576888065
+                },
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576887239
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576878060
+                }
+            },
+            "lastAccept": 1576968185
+        },
+        {
+            "pos": 41,
+            "team": "OpenToAll",
+            "score": 805,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576924888
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576885524
+                },
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576884798
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576879014
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576873783
+                }
+            },
+            "lastAccept": 1576924888
+        },
+        {
+            "pos": 42,
+            "team": "fuo11",
+            "score": 757,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576959080
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576954276
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576908371
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576904808
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576903847
+                }
+            },
+            "lastAccept": 1576959080
+        },
+        {
+            "pos": 43,
+            "team": "I Don't Know",
+            "score": 682,
+            "taskStats": {
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576976966
+                },
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576956590
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576943691
+                }
+            },
+            "lastAccept": 1576976966
+        },
+        {
+            "pos": 44,
+            "team": "WeekEndHackR",
+            "score": 664,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576941569
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576923373
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576920121
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576875427
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872355
+                }
+            },
+            "lastAccept": 1576941569
+        },
+        {
+            "pos": 45,
+            "team": "Fword",
+            "score": 664,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576959477
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576885601
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576881549
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576876705
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576875398
+                }
+            },
+            "lastAccept": 1576959477
+        },
+        {
+            "pos": 46,
+            "team": "GreyFang",
+            "score": 664,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576997160
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576991528
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576989040
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576988591
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576929180
+                }
+            },
+            "lastAccept": 1576997160
+        },
+        {
+            "pos": 47,
+            "team": "xSTF",
+            "score": 639,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576985999
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576967347
+                },
+                "RSA Exponent": {
+                    "points": 326,
+                    "time": 1576949671
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576895438
+                }
+            },
+            "lastAccept": 1576985999
+        },
+        {
+            "pos": 48,
+            "team": "irRaptors",
+            "score": 624,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1577000458
+                },
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576934558
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576882642
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872204
+                }
+            },
+            "lastAccept": 1577000458
+        },
+        {
+            "pos": 49,
+            "team": "BinaryBears",
+            "score": 618,
+            "taskStats": {
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576888928
+                },
+                "md5service": {
+                    "points": 263,
+                    "time": 1576884315
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576878412
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872046
+                }
+            },
+            "lastAccept": 1576888928
+        },
+        {
+            "pos": 50,
+            "team": "SegFaultSquad",
+            "score": 600,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576894535
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576885529
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576883549
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872501
+                }
+            },
+            "lastAccept": 1576894535
+        },
+        {
+            "pos": 51,
+            "team": "L3o",
+            "score": 600,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576919095
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576905470
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576897942
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576891325
+                }
+            },
+            "lastAccept": 1576919095
+        },
+        {
+            "pos": 52,
+            "team": "Golems_treat",
+            "score": 600,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576932404
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576915400
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576914980
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576912070
+                }
+            },
+            "lastAccept": 1576932404
+        },
+        {
+            "pos": 53,
+            "team": "PelarianCP",
+            "score": 600,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576949179
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576922970
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576922333
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576918096
+                }
+            },
+            "lastAccept": 1576949179
+        },
+        {
+            "pos": 54,
+            "team": "Defenit",
+            "score": 593,
+            "taskStats": {
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1577007014
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576943010
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576935026
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576905297
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576894492
+                }
+            },
+            "lastAccept": 1577007014
+        },
+        {
+            "pos": 55,
+            "team": "InsHack@ti",
+            "score": 573,
+            "taskStats": {
+                "md5service": {
+                    "points": 263,
+                    "time": 1576956267
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576877610
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576875514
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576875280
+                }
+            },
+            "lastAccept": 1576956267
+        },
+        {
+            "pos": 56,
+            "team": "r3kor",
+            "score": 560,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576881508
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576880389
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576876714
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576875997
+                }
+            },
+            "lastAccept": 1576881508
+        },
+        {
+            "pos": 57,
+            "team": "Unsigned",
+            "score": 558,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576962113
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576950847
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576935658
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576889663
+                }
+            },
+            "lastAccept": 1576962113
+        },
+        {
+            "pos": 58,
+            "team": "Sagami",
+            "score": 558,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576968393
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576926687
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576924304
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576888143
+                }
+            },
+            "lastAccept": 1576968393
+        },
+        {
+            "pos": 59,
+            "team": "NaN-i",
+            "score": 558,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1577004090
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1577003757
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576969002
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872570
+                }
+            },
+            "lastAccept": 1577004090
+        },
+        {
+            "pos": 60,
+            "team": "SECCLO",
+            "score": 512,
+            "taskStats": {
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576922463
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576886091
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576883901
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576882446
+                }
+            },
+            "lastAccept": 1576922463
+        },
+        {
+            "pos": 61,
+            "team": "On est pas venu deguises en feuille de chou pour se faire bouffer le cul par des lapins",
+            "score": 512,
+            "taskStats": {
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576967761
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576918721
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576886256
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576882930
+                }
+            },
+            "lastAccept": 1576967761
+        },
+        {
+            "pos": 62,
+            "team": "cAqig~hOI~HQEgAg]c",
+            "score": 509,
+            "taskStats": {
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576985418
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576931645
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576908476
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576899131
+                }
+            },
+            "lastAccept": 1576985418
+        },
+        {
+            "pos": 63,
+            "team": "NULLKrypt3rs",
+            "score": 507,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576946026
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576936306
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576921284
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873253
+                }
+            },
+            "lastAccept": 1576946026
+        },
+        {
+            "pos": 64,
+            "team": "sigint",
+            "score": 507,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576978020
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576975752
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576879410
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576878908
+                }
+            },
+            "lastAccept": 1576978020
+        },
+        {
+            "pos": 65,
+            "team": "bruh 2.0",
+            "score": 507,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576989816
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576987449
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576976179
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576973517
+                }
+            },
+            "lastAccept": 1576989816
+        },
+        {
+            "pos": 66,
+            "team": "Dashu",
+            "score": 507,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1577004647
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576994751
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576991816
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576991603
+                }
+            },
+            "lastAccept": 1577004647
+        },
+        {
+            "pos": 67,
+            "team": "gorogoroumaru",
+            "score": 467,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576979209
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576908571
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576908342
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576895021
+                }
+            },
+            "lastAccept": 1576979209
+        },
+        {
+            "pos": 68,
+            "team": "Outside the box",
+            "score": 467,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576987452
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576982128
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576968195
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576911207
+                }
+            },
+            "lastAccept": 1576987452
+        },
+        {
+            "pos": 69,
+            "team": "Mashiro",
+            "score": 457,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576999105
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576997638
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576902966
+                }
+            },
+            "lastAccept": 1576999105
+        },
+        {
+            "pos": 70,
+            "team": "jbz",
+            "score": 449,
+            "taskStats": {
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576921531
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576915606
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576914922
+                }
+            },
+            "lastAccept": 1576921531
+        },
+        {
+            "pos": 71,
+            "team": "Cyber Security Leaks",
+            "score": 449,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576941836
+                },
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576896023
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576888310
+                }
+            },
+            "lastAccept": 1576941836
+        },
+        {
+            "pos": 72,
+            "team": "makelarides",
+            "score": 449,
+            "taskStats": {
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576956356
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576876629
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576873645
+                }
+            },
+            "lastAccept": 1576956356
+        },
+        {
+            "pos": 73,
+            "team": "empty-jack",
+            "score": 449,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576960388
+                },
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576956518
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576874142
+                }
+            },
+            "lastAccept": 1576960388
+        },
+        {
+            "pos": 74,
+            "team": "Count of Monte Crypto",
+            "score": 401,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576947394
+                },
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576946669
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576941275
+                }
+            },
+            "lastAccept": 1576947394
+        },
+        {
+            "pos": 75,
+            "team": "kiona",
+            "score": 401,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576983378
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576893764
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576890042
+                }
+            },
+            "lastAccept": 1576983378
+        },
+        {
+            "pos": 76,
+            "team": "M4r5",
+            "score": 401,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1577001150
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576952572
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576938284
+                }
+            },
+            "lastAccept": 1577001150
+        },
+        {
+            "pos": 77,
+            "team": "GoN",
+            "score": 389,
+            "taskStats": {
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576923546
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576919019
+                }
+            },
+            "lastAccept": 1576923546
+        },
+        {
+            "pos": 78,
+            "team": "The Additional Payphones",
+            "score": 389,
+            "taskStats": {
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1577002817
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576992237
+                }
+            },
+            "lastAccept": 1577002817
+        },
+        {
+            "pos": 79,
+            "team": "n0n3",
+            "score": 376,
+            "taskStats": {
+                "RSA Exponent": {
+                    "points": 326,
+                    "time": 1576996872
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576932951
+                }
+            },
+            "lastAccept": 1576996872
+        },
+        {
+            "pos": 80,
+            "team": "ShellaciousTrio",
+            "score": 369,
+            "taskStats": {
+                "md5service": {
+                    "points": 263,
+                    "time": 1576910620
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576902032
+                }
+            },
+            "lastAccept": 1576910620
+        },
+        {
+            "pos": 81,
+            "team": "swvl",
+            "score": 361,
+            "taskStats": {
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576877429
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576873367
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872789
+                }
+            },
+            "lastAccept": 1576877429
+        },
+        {
+            "pos": 82,
+            "team": "GR00T5",
+            "score": 361,
+            "taskStats": {
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576913695
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576876654
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873077
+                }
+            },
+            "lastAccept": 1576913695
+        },
+        {
+            "pos": 83,
+            "team": "KXTI_",
+            "score": 356,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576951267
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576947380
+                }
+            },
+            "lastAccept": 1576951267
+        },
+        {
+            "pos": 84,
+            "team": "yk1ax",
+            "score": 356,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576958722
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576882352
+                }
+            },
+            "lastAccept": 1576958722
+        },
+        {
+            "pos": 85,
+            "team": "WannaSplunk",
+            "score": 355,
+            "taskStats": {
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576883103
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576882925
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872695
+                }
+            },
+            "lastAccept": 1576883103
+        },
+        {
+            "pos": 86,
+            "team": "10sec",
+            "score": 355,
+            "taskStats": {
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576914383
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576902642
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872368
+                }
+            },
+            "lastAccept": 1576914383
+        },
+        {
+            "pos": 87,
+            "team": "hades",
+            "score": 355,
+            "taskStats": {
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576921691
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576901590
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576892763
+                }
+            },
+            "lastAccept": 1576921691
+        },
+        {
+            "pos": 88,
+            "team": "rainy",
+            "score": 351,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576884187
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576878733
+                }
+            },
+            "lastAccept": 1576884187
+        },
+        {
+            "pos": 89,
+            "team": "sudo_masochists",
+            "score": 351,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576965038
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576960891
+                }
+            },
+            "lastAccept": 1576965038
+        },
+        {
+            "pos": 90,
+            "team": "dummy",
+            "score": 351,
+            "taskStats": {
+                "FSMir 2": {
+                    "points": 197,
+                    "time": 1576974966
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576973022
+                }
+            },
+            "lastAccept": 1576974966
+        },
+        {
+            "pos": 91,
+            "team": "NOAR",
+            "score": 333,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576913698
+                },
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576901164
+                }
+            },
+            "lastAccept": 1576913698
+        },
+        {
+            "pos": 92,
+            "team": "STT",
+            "score": 333,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576933814
+                },
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576892460
+                }
+            },
+            "lastAccept": 1576933814
+        },
+        {
+            "pos": 93,
+            "team": "Malicious Group",
+            "score": 314,
+            "taskStats": {
+                "wierd signals": {
+                    "points": 314,
+                    "time": 1576877157
+                }
+            },
+            "lastAccept": 1576877157
+        },
+        {
+            "pos": 94,
+            "team": "DuckDuckNo",
+            "score": 313,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576875567
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576873438
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872258
+                }
+            },
+            "lastAccept": 1576875567
+        },
+        {
+            "pos": 95,
+            "team": "adria",
+            "score": 313,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576882844
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576879333
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576877065
+                }
+            },
+            "lastAccept": 1576882844
+        },
+        {
+            "pos": 96,
+            "team": "UNNAMED_TEAM",
+            "score": 313,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576883082
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576879923
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576876188
+                }
+            },
+            "lastAccept": 1576883082
+        },
+        {
+            "pos": 97,
+            "team": "Night Cheese",
+            "score": 313,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576888551
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576886244
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576884994
+                }
+            },
+            "lastAccept": 1576888551
+        },
+        {
+            "pos": 98,
+            "team": "Chhaipov",
+            "score": 313,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576912220
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576911307
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576910622
+                }
+            },
+            "lastAccept": 1576912220
+        },
+        {
+            "pos": 99,
+            "team": "HackingForSoju",
+            "score": 313,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576925994
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576924556
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576924442
+                }
+            },
+            "lastAccept": 1576925994
+        },
+        {
+            "pos": 100,
+            "team": "UTF-8",
+            "score": 313,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576939478
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576939336
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576937058
+                }
+            },
+            "lastAccept": 1576939478
+        },
+        {
+            "pos": 101,
+            "team": "0c34n",
+            "score": 313,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576944146
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576935323
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576934849
+                }
+            },
+            "lastAccept": 1576944146
+        },
+        {
+            "pos": 102,
+            "team": "rmrfslash",
+            "score": 313,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576963290
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576954584
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576952721
+                }
+            },
+            "lastAccept": 1576963290
+        },
+        {
+            "pos": 103,
+            "team": "TeamC8",
+            "score": 313,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1577002171
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576920040
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576918796
+                }
+            },
+            "lastAccept": 1577002171
+        },
+        {
+            "pos": 104,
+            "team": "Nupakachi",
+            "score": 310,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576972910
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576942283
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576908524
+                }
+            },
+            "lastAccept": 1576972910
+        },
+        {
+            "pos": 105,
+            "team": "bolgia4",
+            "score": 293,
+            "taskStats": {
+                "Ugly website": {
+                    "points": 293,
+                    "time": 1576909971
+                }
+            },
+            "lastAccept": 1576909971
+        },
+        {
+            "pos": 106,
+            "team": "LC",
+            "score": 283,
+            "taskStats": {
+                "Will it stop?": {
+                    "points": 283,
+                    "time": 1576876707
+                }
+            },
+            "lastAccept": 1576876707
+        },
+        {
+            "pos": 107,
+            "team": "r0ck3tship",
+            "score": 283,
+            "taskStats": {
+                "Shellcode Executor PRO": {
+                    "points": 283,
+                    "time": 1576964976
+                }
+            },
+            "lastAccept": 1576964976
+        },
+        {
+            "pos": 108,
+            "team": "starPt",
+            "score": 283,
+            "taskStats": {
+                "Phonebook": {
+                    "points": 283,
+                    "time": 1576987134
+                }
+            },
+            "lastAccept": 1576987134
+        },
+        {
+            "pos": 109,
+            "team": "nolax",
+            "score": 263,
+            "taskStats": {
+                "md5service": {
+                    "points": 263,
+                    "time": 1576913755
+                }
+            },
+            "lastAccept": 1576913755
+        },
+        {
+            "pos": 110,
+            "team": "0xf4b1",
+            "score": 263,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576970953
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576970466
+                }
+            },
+            "lastAccept": 1576970953
+        },
+        {
+            "pos": 111,
+            "team": "Cyber Grizzlies",
+            "score": 263,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576991611
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576989760
+                }
+            },
+            "lastAccept": 1576991611
+        },
+        {
+            "pos": 112,
+            "team": "Yoshikage Kira",
+            "score": 249,
+            "taskStats": {
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576880627
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873487
+                }
+            },
+            "lastAccept": 1576880627
+        },
+        {
+            "pos": 113,
+            "team": "good_mavericks",
+            "score": 249,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576885935
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576883099
+                }
+            },
+            "lastAccept": 1576885935
+        },
+        {
+            "pos": 114,
+            "team": "DEFCON 201",
+            "score": 249,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576890150
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576889907
+                }
+            },
+            "lastAccept": 1576890150
+        },
+        {
+            "pos": 115,
+            "team": "malwareIsNaturalSelection",
+            "score": 249,
+            "taskStats": {
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576896207
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872700
+                }
+            },
+            "lastAccept": 1576896207
+        },
+        {
+            "pos": 116,
+            "team": "KXTI_AVTORU_0_LET",
+            "score": 249,
+            "taskStats": {
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576943423
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873330
+                }
+            },
+            "lastAccept": 1576943423
+        },
+        {
+            "pos": 117,
+            "team": "KXTI-artem",
+            "score": 249,
+            "taskStats": {
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576943993
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576943941
+                }
+            },
+            "lastAccept": 1576943993
+        },
+        {
+            "pos": 118,
+            "team": "KR1EG",
+            "score": 249,
+            "taskStats": {
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576949676
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576883258
+                }
+            },
+            "lastAccept": 1576949676
+        },
+        {
+            "pos": 119,
+            "team": "kitchen staff",
+            "score": 249,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576956350
+                },
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576900844
+                }
+            },
+            "lastAccept": 1576956350
+        },
+        {
+            "pos": 120,
+            "team": "ByteForc3",
+            "score": 207,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576875208
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872130
+                }
+            },
+            "lastAccept": 1576875208
+        },
+        {
+            "pos": 121,
+            "team": "Col4pso",
+            "score": 207,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576878848
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576875982
+                }
+            },
+            "lastAccept": 1576878848
+        },
+        {
+            "pos": 122,
+            "team": "Drimacus",
+            "score": 207,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576879383
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576877991
+                }
+            },
+            "lastAccept": 1576879383
+        },
+        {
+            "pos": 123,
+            "team": "noraneco",
+            "score": 207,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576882497
+                },
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576882203
+                }
+            },
+            "lastAccept": 1576882497
+        },
+        {
+            "pos": 124,
+            "team": "Golden",
+            "score": 207,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576884306
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576881060
+                }
+            },
+            "lastAccept": 1576884306
+        },
+        {
+            "pos": 125,
+            "team": "ArchSeong",
+            "score": 207,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576892335
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576891247
+                }
+            },
+            "lastAccept": 1576892335
+        },
+        {
+            "pos": 126,
+            "team": "hasu",
+            "score": 207,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576897070
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576896019
+                }
+            },
+            "lastAccept": 1576897070
+        },
+        {
+            "pos": 127,
+            "team": "warlock_rootx",
+            "score": 207,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576903275
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576875140
+                }
+            },
+            "lastAccept": 1576903275
+        },
+        {
+            "pos": 128,
+            "team": "0xfxxker",
+            "score": 207,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576908036
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576892570
+                }
+            },
+            "lastAccept": 1576908036
+        },
+        {
+            "pos": 129,
+            "team": "dcua-school",
+            "score": 207,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576914857
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872693
+                }
+            },
+            "lastAccept": 1576914857
+        },
+        {
+            "pos": 130,
+            "team": "n0obT3aM",
+            "score": 207,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576916920
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873020
+                }
+            },
+            "lastAccept": 1576916920
+        },
+        {
+            "pos": 131,
+            "team": "PLAYERONE",
+            "score": 207,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576950161
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576922923
+                }
+            },
+            "lastAccept": 1576950161
+        },
+        {
+            "pos": 132,
+            "team": "ahengers",
+            "score": 207,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576975965
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576975467
+                }
+            },
+            "lastAccept": 1576975965
+        },
+        {
+            "pos": 133,
+            "team": "0xN1ghtRa1d",
+            "score": 204,
+            "taskStats": {
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576884208
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576883138
+                }
+            },
+            "lastAccept": 1576884208
+        },
+        {
+            "pos": 134,
+            "team": "GOYANGYI",
+            "score": 204,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576911059
+                },
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576910988
+                }
+            },
+            "lastAccept": 1576911059
+        },
+        {
+            "pos": 135,
+            "team": "Zero OFFset",
+            "score": 204,
+            "taskStats": {
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576916211
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873083
+                }
+            },
+            "lastAccept": 1576916211
+        },
+        {
+            "pos": 136,
+            "team": "stankc",
+            "score": 204,
+            "taskStats": {
+                "FSMir": {
+                    "points": 154,
+                    "time": 1577004253
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576904186
+                }
+            },
+            "lastAccept": 1577004253
+        },
+        {
+            "pos": 137,
+            "team": "BHI Cyber Noobs",
+            "score": 199,
+            "taskStats": {
+                "Dominoes": {
+                    "points": 199,
+                    "time": 1576906043
+                }
+            },
+            "lastAccept": 1576906043
+        },
+        {
+            "pos": 138,
+            "team": "Flag_On_Board",
+            "score": 157,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576879271
+                }
+            },
+            "lastAccept": 1576879271
+        },
+        {
+            "pos": 139,
+            "team": "Bowback",
+            "score": 157,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576929340
+                }
+            },
+            "lastAccept": 1576929340
+        },
+        {
+            "pos": 140,
+            "team": "nanocomp",
+            "score": 157,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576966134
+                }
+            },
+            "lastAccept": 1576966134
+        },
+        {
+            "pos": 141,
+            "team": "stryct",
+            "score": 157,
+            "taskStats": {
+                "Matryoshka": {
+                    "points": 157,
+                    "time": 1576967230
+                }
+            },
+            "lastAccept": 1576967230
+        },
+        {
+            "pos": 142,
+            "team": "KJHS",
+            "score": 156,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576873946
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872273
+                }
+            },
+            "lastAccept": 1576873946
+        },
+        {
+            "pos": 143,
+            "team": "kjb",
+            "score": 156,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576877157
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576876483
+                }
+            },
+            "lastAccept": 1576877157
+        },
+        {
+            "pos": 144,
+            "team": "jammy",
+            "score": 156,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576877535
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872152
+                }
+            },
+            "lastAccept": 1576877535
+        },
+        {
+            "pos": 145,
+            "team": "wannabe_root",
+            "score": 156,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576881291
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576876344
+                }
+            },
+            "lastAccept": 1576881291
+        },
+        {
+            "pos": 146,
+            "team": "AlphaPwner",
+            "score": 156,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576884024
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576874086
+                }
+            },
+            "lastAccept": 1576884024
+        },
+        {
+            "pos": 147,
+            "team": "ShoulderSurfers",
+            "score": 156,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576884614
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872686
+                }
+            },
+            "lastAccept": 1576884614
+        },
+        {
+            "pos": 148,
+            "team": "benches",
+            "score": 156,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576894557
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576892291
+                }
+            },
+            "lastAccept": 1576894557
+        },
+        {
+            "pos": 149,
+            "team": "Chawan",
+            "score": 156,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576899681
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576890894
+                }
+            },
+            "lastAccept": 1576899681
+        },
+        {
+            "pos": 150,
+            "team": "sinbeard",
+            "score": 156,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576903443
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576888544
+                }
+            },
+            "lastAccept": 1576903443
+        },
+        {
+            "pos": 151,
+            "team": "warbots",
+            "score": 156,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576909138
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576905427
+                }
+            },
+            "lastAccept": 1576909138
+        },
+        {
+            "pos": 152,
+            "team": "thrumbos",
+            "score": 156,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576909833
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576874377
+                }
+            },
+            "lastAccept": 1576909833
+        },
+        {
+            "pos": 153,
+            "team": "WhoAreWe",
+            "score": 156,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576910573
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576893533
+                }
+            },
+            "lastAccept": 1576910573
+        },
+        {
+            "pos": 154,
+            "team": "Moonshine",
+            "score": 156,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576920676
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576914184
+                }
+            },
+            "lastAccept": 1576920676
+        },
+        {
+            "pos": 155,
+            "team": "CYberMouflons",
+            "score": 156,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576923695
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576918854
+                }
+            },
+            "lastAccept": 1576923695
+        },
+        {
+            "pos": 156,
+            "team": "i <3 park",
+            "score": 156,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576935924
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576878352
+                }
+            },
+            "lastAccept": 1576935924
+        },
+        {
+            "pos": 157,
+            "team": "MGL",
+            "score": 156,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576936409
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576933033
+                }
+            },
+            "lastAccept": 1576936409
+        },
+        {
+            "pos": 158,
+            "team": "Leofwin",
+            "score": 156,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576939469
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576902281
+                }
+            },
+            "lastAccept": 1576939469
+        },
+        {
+            "pos": 159,
+            "team": "MhackGyver",
+            "score": 156,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576941045
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872581
+                }
+            },
+            "lastAccept": 1576941045
+        },
+        {
+            "pos": 160,
+            "team": "fkania2",
+            "score": 156,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576944519
+                },
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576943700
+                }
+            },
+            "lastAccept": 1576944519
+        },
+        {
+            "pos": 161,
+            "team": "cr0wn",
+            "score": 154,
+            "taskStats": {
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576873910
+                }
+            },
+            "lastAccept": 1576873910
+        },
+        {
+            "pos": 162,
+            "team": "CSsquad",
+            "score": 154,
+            "taskStats": {
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576879573
+                }
+            },
+            "lastAccept": 1576879573
+        },
+        {
+            "pos": 163,
+            "team": "Hyper_Sec",
+            "score": 154,
+            "taskStats": {
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576903478
+                }
+            },
+            "lastAccept": 1576903478
+        },
+        {
+            "pos": 164,
+            "team": "forgot_password",
+            "score": 154,
+            "taskStats": {
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576909266
+                }
+            },
+            "lastAccept": 1576909266
+        },
+        {
+            "pos": 165,
+            "team": "abhay~",
+            "score": 154,
+            "taskStats": {
+                "FSMir": {
+                    "points": 154,
+                    "time": 1576954075
+                }
+            },
+            "lastAccept": 1576954075
+        },
+        {
+            "pos": 166,
+            "team": "gregxsunday",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576873461
+                }
+            },
+            "lastAccept": 1576873461
+        },
+        {
+            "pos": 167,
+            "team": "StroxTeam",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576877508
+                }
+            },
+            "lastAccept": 1576877508
+        },
+        {
+            "pos": 168,
+            "team": "coppito_zero_day",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576882083
+                }
+            },
+            "lastAccept": 1576882083
+        },
+        {
+            "pos": 169,
+            "team": "D0g3",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576895581
+                }
+            },
+            "lastAccept": 1576895581
+        },
+        {
+            "pos": 170,
+            "team": "sn00py",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576905438
+                }
+            },
+            "lastAccept": 1576905438
+        },
+        {
+            "pos": 171,
+            "team": "SharLike",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576914682
+                }
+            },
+            "lastAccept": 1576914682
+        },
+        {
+            "pos": 172,
+            "team": "loxiebannie2",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576917568
+                }
+            },
+            "lastAccept": 1576917568
+        },
+        {
+            "pos": 173,
+            "team": "@RakeshMane10",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576919047
+                }
+            },
+            "lastAccept": 1576919047
+        },
+        {
+            "pos": 174,
+            "team": "exztase",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576921216
+                }
+            },
+            "lastAccept": 1576921216
+        },
+        {
+            "pos": 175,
+            "team": "Armia Prezesa",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576922140
+                }
+            },
+            "lastAccept": 1576922140
+        },
+        {
+            "pos": 176,
+            "team": "tester",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576926138
+                }
+            },
+            "lastAccept": 1576926138
+        },
+        {
+            "pos": 177,
+            "team": "Bakunine",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576927335
+                }
+            },
+            "lastAccept": 1576927335
+        },
+        {
+            "pos": 178,
+            "team": "Rigmarole",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576936650
+                }
+            },
+            "lastAccept": 1576936650
+        },
+        {
+            "pos": 179,
+            "team": "captain_canada",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576938609
+                }
+            },
+            "lastAccept": 1576938609
+        },
+        {
+            "pos": 180,
+            "team": "Vadrak",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576939512
+                }
+            },
+            "lastAccept": 1576939512
+        },
+        {
+            "pos": 181,
+            "team": "zer0tank",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576945696
+                }
+            },
+            "lastAccept": 1576945696
+        },
+        {
+            "pos": 182,
+            "team": "l3k3v",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576948138
+                }
+            },
+            "lastAccept": 1576948138
+        },
+        {
+            "pos": 183,
+            "team": "PwnFunction",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576954867
+                }
+            },
+            "lastAccept": 1576954867
+        },
+        {
+            "pos": 184,
+            "team": "chika",
+            "score": 106,
+            "taskStats": {
+                "FirmwareUpdater": {
+                    "points": 106,
+                    "time": 1576996619
+                }
+            },
+            "lastAccept": 1576996619
+        },
+        {
+            "pos": 185,
+            "team": "CyberBoys",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872066
+                }
+            },
+            "lastAccept": 1576872066
+        },
+        {
+            "pos": 186,
+            "team": "Birgit do you want me?",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872104
+                }
+            },
+            "lastAccept": 1576872104
+        },
+        {
+            "pos": 187,
+            "team": "NafNaf1234",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872111
+                }
+            },
+            "lastAccept": 1576872111
+        },
+        {
+            "pos": 188,
+            "team": "BabyTown Frolics",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872160
+                }
+            },
+            "lastAccept": 1576872160
+        },
+        {
+            "pos": 189,
+            "team": "K1t5un3",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872174
+                }
+            },
+            "lastAccept": 1576872174
+        },
+        {
+            "pos": 190,
+            "team": "ETYB",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872212
+                }
+            },
+            "lastAccept": 1576872212
+        },
+        {
+            "pos": 191,
+            "team": "SN",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872261
+                }
+            },
+            "lastAccept": 1576872261
+        },
+        {
+            "pos": 192,
+            "team": "404 Found",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872268
+                }
+            },
+            "lastAccept": 1576872268
+        },
+        {
+            "pos": 193,
+            "team": "Tsami",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872302
+                }
+            },
+            "lastAccept": 1576872302
+        },
+        {
+            "pos": 194,
+            "team": "Burgos1337",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872309
+                }
+            },
+            "lastAccept": 1576872309
+        },
+        {
+            "pos": 195,
+            "team": "d3ph4u17",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872321
+                }
+            },
+            "lastAccept": 1576872321
+        },
+        {
+            "pos": 196,
+            "team": "Newbie-e",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872321
+                }
+            },
+            "lastAccept": 1576872321
+        },
+        {
+            "pos": 197,
+            "team": "ChineseBarbarosa",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872374
+                }
+            },
+            "lastAccept": 1576872374
+        },
+        {
+            "pos": 198,
+            "team": "Kronan",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872414
+                }
+            },
+            "lastAccept": 1576872414
+        },
+        {
+            "pos": 199,
+            "team": "IMalone",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872440
+                }
+            },
+            "lastAccept": 1576872440
+        },
+        {
+            "pos": 200,
+            "team": "Lev9L",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872514
+                }
+            },
+            "lastAccept": 1576872514
+        },
+        {
+            "pos": 201,
+            "team": "Juggernaut",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872556
+                }
+            },
+            "lastAccept": 1576872556
+        },
+        {
+            "pos": 202,
+            "team": "KXTI",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872574
+                }
+            },
+            "lastAccept": 1576872574
+        },
+        {
+            "pos": 203,
+            "team": "lazy pirates",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872602
+                }
+            },
+            "lastAccept": 1576872602
+        },
+        {
+            "pos": 204,
+            "team": "l337",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872680
+                }
+            },
+            "lastAccept": 1576872680
+        },
+        {
+            "pos": 205,
+            "team": "babyshark",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872815
+                }
+            },
+            "lastAccept": 1576872815
+        },
+        {
+            "pos": 206,
+            "team": "0xFirat-Axiicth",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872895
+                }
+            },
+            "lastAccept": 1576872895
+        },
+        {
+            "pos": 207,
+            "team": "BB",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872912
+                }
+            },
+            "lastAccept": 1576872912
+        },
+        {
+            "pos": 208,
+            "team": "WRUBLE",
+            "score": 50,
+            "taskStats": {
+                "FSMir": {
+                    "points": 154,
+                    "time": 1577005311
+                },
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576872994
+                }
+            },
+            "lastAccept": 1577005311
+        },
+        {
+            "pos": 209,
+            "team": "TheGas",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873190
+                }
+            },
+            "lastAccept": 1576873190
+        },
+        {
+            "pos": 210,
+            "team": "PizzaB0ys",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873282
+                }
+            },
+            "lastAccept": 1576873282
+        },
+        {
+            "pos": 211,
+            "team": "Servant's Sons",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873410
+                }
+            },
+            "lastAccept": 1576873410
+        },
+        {
+            "pos": 212,
+            "team": "SoloSkid",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873449
+                }
+            },
+            "lastAccept": 1576873449
+        },
+        {
+            "pos": 213,
+            "team": "Underperformers",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873487
+                }
+            },
+            "lastAccept": 1576873487
+        },
+        {
+            "pos": 214,
+            "team": "CNBT",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873506
+                }
+            },
+            "lastAccept": 1576873506
+        },
+        {
+            "pos": 215,
+            "team": "justxmi",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873553
+                }
+            },
+            "lastAccept": 1576873553
+        },
+        {
+            "pos": 216,
+            "team": "xploitrz",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873588
+                }
+            },
+            "lastAccept": 1576873588
+        },
+        {
+            "pos": 217,
+            "team": "newbies",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873633
+                }
+            },
+            "lastAccept": 1576873633
+        },
+        {
+            "pos": 218,
+            "team": "06h3fnum23",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873643
+                }
+            },
+            "lastAccept": 1576873643
+        },
+        {
+            "pos": 219,
+            "team": "Noa",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873669
+                }
+            },
+            "lastAccept": 1576873669
+        },
+        {
+            "pos": 220,
+            "team": "DTTeam",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873712
+                }
+            },
+            "lastAccept": 1576873712
+        },
+        {
+            "pos": 221,
+            "team": "ncuxc",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576873815
+                }
+            },
+            "lastAccept": 1576873815
+        },
+        {
+            "pos": 222,
+            "team": "keine Ahnung",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576874059
+                }
+            },
+            "lastAccept": 1576874059
+        },
+        {
+            "pos": 223,
+            "team": "JUST",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576874313
+                }
+            },
+            "lastAccept": 1576874313
+        },
+        {
+            "pos": 224,
+            "team": "Cyber0ps",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576874563
+                }
+            },
+            "lastAccept": 1576874563
+        },
+        {
+            "pos": 225,
+            "team": "1337TilburgHaxxors",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576874674
+                }
+            },
+            "lastAccept": 1576874674
+        },
+        {
+            "pos": 226,
+            "team": "CosmikFlagHunters",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576874712
+                }
+            },
+            "lastAccept": 1576874712
+        },
+        {
+            "pos": 227,
+            "team": "KXTI_((",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576874859
+                }
+            },
+            "lastAccept": 1576874859
+        },
+        {
+            "pos": 228,
+            "team": "kerouac",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576875030
+                }
+            },
+            "lastAccept": 1576875030
+        },
+        {
+            "pos": 229,
+            "team": "Dark Pancakes",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576875133
+                }
+            },
+            "lastAccept": 1576875133
+        },
+        {
+            "pos": 230,
+            "team": "pl0x_b3_k1nd",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576875429
+                }
+            },
+            "lastAccept": 1576875429
+        },
+        {
+            "pos": 231,
+            "team": "HTsP Junior",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576875572
+                }
+            },
+            "lastAccept": 1576875572
+        },
+        {
+            "pos": 232,
+            "team": "3 Ways to Heck",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576875829
+                }
+            },
+            "lastAccept": 1576875829
+        },
+        {
+            "pos": 233,
+            "team": "HTsP",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576875910
+                }
+            },
+            "lastAccept": 1576875910
+        },
+        {
+            "pos": 234,
+            "team": "T3D",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576876274
+                }
+            },
+            "lastAccept": 1576876274
+        },
+        {
+            "pos": 235,
+            "team": "ph4qd",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576876385
+                }
+            },
+            "lastAccept": 1576876385
+        },
+        {
+            "pos": 236,
+            "team": "OneHackMan",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576876419
+                }
+            },
+            "lastAccept": 1576876419
+        },
+        {
+            "pos": 237,
+            "team": "onotch",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576876430
+                }
+            },
+            "lastAccept": 1576876430
+        },
+        {
+            "pos": 238,
+            "team": "Kanjerklub",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576876961
+                }
+            },
+            "lastAccept": 1576876961
+        },
+        {
+            "pos": 239,
+            "team": "SteelHunt",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576877142
+                }
+            },
+            "lastAccept": 1576877142
+        },
+        {
+            "pos": 240,
+            "team": "0dayparade",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576877148
+                }
+            },
+            "lastAccept": 1576877148
+        },
+        {
+            "pos": 241,
+            "team": "423a",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576877916
+                }
+            },
+            "lastAccept": 1576877916
+        },
+        {
+            "pos": 242,
+            "team": "Jakub16",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576879209
+                }
+            },
+            "lastAccept": 1576879209
+        },
+        {
+            "pos": 243,
+            "team": "highly-creative-team-name",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576879387
+                }
+            },
+            "lastAccept": 1576879387
+        },
+        {
+            "pos": 244,
+            "team": "Kern0bal_",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576879915
+                }
+            },
+            "lastAccept": 1576879915
+        },
+        {
+            "pos": 245,
+            "team": "MegaKill",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576880019
+                }
+            },
+            "lastAccept": 1576880019
+        },
+        {
+            "pos": 246,
+            "team": "teeem1",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576880083
+                }
+            },
+            "lastAccept": 1576880083
+        },
+        {
+            "pos": 247,
+            "team": "niewiemkimjestem",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576880217
+                }
+            },
+            "lastAccept": 1576880217
+        },
+        {
+            "pos": 248,
+            "team": "k0kos",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576880227
+                }
+            },
+            "lastAccept": 1576880227
+        },
+        {
+            "pos": 249,
+            "team": "wi4aes3Paiw4Oosohyiephiegeeth9",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576880322
+                }
+            },
+            "lastAccept": 1576880322
+        },
+        {
+            "pos": 250,
+            "team": "Snacker Underground",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576880353
+                }
+            },
+            "lastAccept": 1576880353
+        },
+        {
+            "pos": 251,
+            "team": "bypassingby",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576880806
+                }
+            },
+            "lastAccept": 1576880806
+        },
+        {
+            "pos": 252,
+            "team": "savageturk",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576881271
+                }
+            },
+            "lastAccept": 1576881271
+        },
+        {
+            "pos": 253,
+            "team": "Pirate",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576881299
+                }
+            },
+            "lastAccept": 1576881299
+        },
+        {
+            "pos": 254,
+            "team": "IamRobot",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576881676
+                }
+            },
+            "lastAccept": 1576881676
+        },
+        {
+            "pos": 255,
+            "team": "ethteck",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576881817
+                }
+            },
+            "lastAccept": 1576881817
+        },
+        {
+            "pos": 256,
+            "team": "kekkete",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576882104
+                }
+            },
+            "lastAccept": 1576882104
+        },
+        {
+            "pos": 257,
+            "team": "simon",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576882130
+                }
+            },
+            "lastAccept": 1576882130
+        },
+        {
+            "pos": 258,
+            "team": "/(spin)*s/",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576882177
+                }
+            },
+            "lastAccept": 1576882177
+        },
+        {
+            "pos": 259,
+            "team": "none",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576883043
+                }
+            },
+            "lastAccept": 1576883043
+        },
+        {
+            "pos": 260,
+            "team": "DNCEG",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576884572
+                }
+            },
+            "lastAccept": 1576884572
+        },
+        {
+            "pos": 261,
+            "team": "Cyber Security Trunojoyo",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576885978
+                }
+            },
+            "lastAccept": 1576885978
+        },
+        {
+            "pos": 262,
+            "team": "Technicruelty",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576886003
+                }
+            },
+            "lastAccept": 1576886003
+        },
+        {
+            "pos": 263,
+            "team": "KXTI_McDonalds",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576886756
+                }
+            },
+            "lastAccept": 1576886756
+        },
+        {
+            "pos": 264,
+            "team": "aephus",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576887229
+                }
+            },
+            "lastAccept": 1576887229
+        },
+        {
+            "pos": 265,
+            "team": "Hackpo",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576888372
+                }
+            },
+            "lastAccept": 1576888372
+        },
+        {
+            "pos": 266,
+            "team": "FULLPWN OPERATIONS",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576889107
+                }
+            },
+            "lastAccept": 1576889107
+        },
+        {
+            "pos": 267,
+            "team": "SIGCHILL",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576889737
+                }
+            },
+            "lastAccept": 1576889737
+        },
+        {
+            "pos": 268,
+            "team": "Siapa",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576890321
+                }
+            },
+            "lastAccept": 1576890321
+        },
+        {
+            "pos": 269,
+            "team": "The loafer squad",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576891526
+                }
+            },
+            "lastAccept": 1576891526
+        },
+        {
+            "pos": 270,
+            "team": "c0ff33",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576891779
+                }
+            },
+            "lastAccept": 1576891779
+        },
+        {
+            "pos": 271,
+            "team": "noidea",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576892014
+                }
+            },
+            "lastAccept": 1576892014
+        },
+        {
+            "pos": 272,
+            "team": "hokkienmee",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576892494
+                }
+            },
+            "lastAccept": 1576892494
+        },
+        {
+            "pos": 273,
+            "team": "Exc4l1b3r",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576892812
+                }
+            },
+            "lastAccept": 1576892812
+        },
+        {
+            "pos": 274,
+            "team": "JustNotBob",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576893272
+                }
+            },
+            "lastAccept": 1576893272
+        },
+        {
+            "pos": 275,
+            "team": "LP",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576895079
+                }
+            },
+            "lastAccept": 1576895079
+        },
+        {
+            "pos": 276,
+            "team": "SilentCobra",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576895795
+                }
+            },
+            "lastAccept": 1576895795
+        },
+        {
+            "pos": 277,
+            "team": "plssavemygpa",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576896745
+                }
+            },
+            "lastAccept": 1576896745
+        },
+        {
+            "pos": 278,
+            "team": "Scr1p7_k1dd13z",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576896902
+                }
+            },
+            "lastAccept": 1576896902
+        },
+        {
+            "pos": 279,
+            "team": "Aleph Infinite",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576897876
+                }
+            },
+            "lastAccept": 1576897876
+        },
+        {
+            "pos": 280,
+            "team": "bunch777",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576897928
+                }
+            },
+            "lastAccept": 1576897928
+        },
+        {
+            "pos": 281,
+            "team": "L0n3_w0!7",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576898764
+                }
+            },
+            "lastAccept": 1576898764
+        },
+        {
+            "pos": 282,
+            "team": "lololol",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576899141
+                }
+            },
+            "lastAccept": 1576899141
+        },
+        {
+            "pos": 283,
+            "team": "MegaByte Crew",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576900066
+                }
+            },
+            "lastAccept": 1576900066
+        },
+        {
+            "pos": 284,
+            "team": "takeALook",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576900583
+                }
+            },
+            "lastAccept": 1576900583
+        },
+        {
+            "pos": 285,
+            "team": "3g1c3",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576900756
+                }
+            },
+            "lastAccept": 1576900756
+        },
+        {
+            "pos": 286,
+            "team": "spoilers",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576903592
+                }
+            },
+            "lastAccept": 1576903592
+        },
+        {
+            "pos": 287,
+            "team": "sp4rk",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576906249
+                }
+            },
+            "lastAccept": 1576906249
+        },
+        {
+            "pos": 288,
+            "team": "Abyss Syndrome",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576907613
+                }
+            },
+            "lastAccept": 1576907613
+        },
+        {
+            "pos": 289,
+            "team": "shaktiman",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576909231
+                }
+            },
+            "lastAccept": 1576909231
+        },
+        {
+            "pos": 290,
+            "team": "KXTI_PROC",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576910360
+                }
+            },
+            "lastAccept": 1576910360
+        },
+        {
+            "pos": 291,
+            "team": "Z4RATHUSTR4",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576913099
+                }
+            },
+            "lastAccept": 1576913099
+        },
+        {
+            "pos": 292,
+            "team": "LearningNewbie",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576913115
+                }
+            },
+            "lastAccept": 1576913115
+        },
+        {
+            "pos": 293,
+            "team": "JUST DERP",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576913518
+                }
+            },
+            "lastAccept": 1576913518
+        },
+        {
+            "pos": 294,
+            "team": "Testing44",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576913527
+                }
+            },
+            "lastAccept": 1576913527
+        },
+        {
+            "pos": 295,
+            "team": "CodeBlack",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576913780
+                }
+            },
+            "lastAccept": 1576913780
+        },
+        {
+            "pos": 296,
+            "team": "N0Named",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576913826
+                }
+            },
+            "lastAccept": 1576913826
+        },
+        {
+            "pos": 297,
+            "team": "Contrail",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576914155
+                }
+            },
+            "lastAccept": 1576914155
+        },
+        {
+            "pos": 298,
+            "team": "Munze4Ever",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576914718
+                }
+            },
+            "lastAccept": 1576914718
+        },
+        {
+            "pos": 299,
+            "team": "star spangled hackers",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576917781
+                }
+            },
+            "lastAccept": 1576917781
+        },
+        {
+            "pos": 300,
+            "team": "hack genes",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576917861
+                }
+            },
+            "lastAccept": 1576917861
+        },
+        {
+            "pos": 301,
+            "team": "0xBADC0DE",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576918245
+                }
+            },
+            "lastAccept": 1576918245
+        },
+        {
+            "pos": 302,
+            "team": "BuGErr0rJubJub",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576919140
+                }
+            },
+            "lastAccept": 1576919140
+        },
+        {
+            "pos": 303,
+            "team": "Ambi",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576920680
+                }
+            },
+            "lastAccept": 1576920680
+        },
+        {
+            "pos": 304,
+            "team": "byte",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576921065
+                }
+            },
+            "lastAccept": 1576921065
+        },
+        {
+            "pos": 305,
+            "team": "hansuyo2",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576921736
+                }
+            },
+            "lastAccept": 1576921736
+        },
+        {
+            "pos": 306,
+            "team": "Spikers",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576921802
+                }
+            },
+            "lastAccept": 1576921802
+        },
+        {
+            "pos": 307,
+            "team": "Zer0-D",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576922363
+                }
+            },
+            "lastAccept": 1576922363
+        },
+        {
+            "pos": 308,
+            "team": "Neko",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576923254
+                }
+            },
+            "lastAccept": 1576923254
+        },
+        {
+            "pos": 309,
+            "team": "jancok",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576924370
+                }
+            },
+            "lastAccept": 1576924370
+        },
+        {
+            "pos": 310,
+            "team": "ctfaizu",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576924689
+                }
+            },
+            "lastAccept": 1576924689
+        },
+        {
+            "pos": 311,
+            "team": "The_Kamikaze",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576925086
+                }
+            },
+            "lastAccept": 1576925086
+        },
+        {
+            "pos": 312,
+            "team": "LitSec",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576926659
+                }
+            },
+            "lastAccept": 1576926659
+        },
+        {
+            "pos": 313,
+            "team": "Cyber Cat",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576927326
+                }
+            },
+            "lastAccept": 1576927326
+        },
+        {
+            "pos": 314,
+            "team": "aht7525",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576928777
+                }
+            },
+            "lastAccept": 1576928777
+        },
+        {
+            "pos": 315,
+            "team": "KXTI_Sec",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576931353
+                }
+            },
+            "lastAccept": 1576931353
+        },
+        {
+            "pos": 316,
+            "team": "0siriz",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576931845
+                }
+            },
+            "lastAccept": 1576931845
+        },
+        {
+            "pos": 317,
+            "team": "house stark",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576932330
+                }
+            },
+            "lastAccept": 1576932330
+        },
+        {
+            "pos": 318,
+            "team": "SecuriTN",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576934943
+                }
+            },
+            "lastAccept": 1576934943
+        },
+        {
+            "pos": 319,
+            "team": "unnoetig",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576936525
+                }
+            },
+            "lastAccept": 1576936525
+        },
+        {
+            "pos": 320,
+            "team": "RedHat",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576937347
+                }
+            },
+            "lastAccept": 1576937347
+        },
+        {
+            "pos": 321,
+            "team": "R3dh4t and the blackhats",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576937509
+                }
+            },
+            "lastAccept": 1576937509
+        },
+        {
+            "pos": 322,
+            "team": "Alpinist",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576946212
+                }
+            },
+            "lastAccept": 1576946212
+        },
+        {
+            "pos": 323,
+            "team": "n00bpr0",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576946383
+                }
+            },
+            "lastAccept": 1576946383
+        },
+        {
+            "pos": 324,
+            "team": "pastabase64",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576946901
+                }
+            },
+            "lastAccept": 1576946901
+        },
+        {
+            "pos": 325,
+            "team": "SUN",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576947673
+                }
+            },
+            "lastAccept": 1576947673
+        },
+        {
+            "pos": 326,
+            "team": "Soviet",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576948369
+                }
+            },
+            "lastAccept": 1576948369
+        },
+        {
+            "pos": 327,
+            "team": "outOfCheese",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576949408
+                }
+            },
+            "lastAccept": 1576949408
+        },
+        {
+            "pos": 328,
+            "team": "a$ap_w1n",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576949531
+                }
+            },
+            "lastAccept": 1576949531
+        },
+        {
+            "pos": 329,
+            "team": "F055il215",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576956553
+                }
+            },
+            "lastAccept": 1576956553
+        },
+        {
+            "pos": 330,
+            "team": "t00lpns",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576956620
+                }
+            },
+            "lastAccept": 1576956620
+        },
+        {
+            "pos": 331,
+            "team": "qqqwwweee",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576957114
+                }
+            },
+            "lastAccept": 1576957114
+        },
+        {
+            "pos": 332,
+            "team": "ping_win",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576958721
+                }
+            },
+            "lastAccept": 1576958721
+        },
+        {
+            "pos": 333,
+            "team": "can",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576959385
+                }
+            },
+            "lastAccept": 1576959385
+        },
+        {
+            "pos": 334,
+            "team": "break_the_code",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576959489
+                }
+            },
+            "lastAccept": 1576959489
+        },
+        {
+            "pos": 335,
+            "team": "batkids",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576966222
+                }
+            },
+            "lastAccept": 1576966222
+        },
+        {
+            "pos": 336,
+            "team": "x4n0n",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576967346
+                }
+            },
+            "lastAccept": 1576967346
+        },
+        {
+            "pos": 337,
+            "team": "ThePhills",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576967540
+                }
+            },
+            "lastAccept": 1576967540
+        },
+        {
+            "pos": 338,
+            "team": "PISDo4Fun",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576973437
+                }
+            },
+            "lastAccept": 1576973437
+        },
+        {
+            "pos": 339,
+            "team": "Flageboys",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576974677
+                }
+            },
+            "lastAccept": 1576974677
+        },
+        {
+            "pos": 340,
+            "team": "TuX",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576980736
+                }
+            },
+            "lastAccept": 1576980736
+        },
+        {
+            "pos": 341,
+            "team": "defrindr",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576984895
+                }
+            },
+            "lastAccept": 1576984895
+        },
+        {
+            "pos": 342,
+            "team": "Search Find PWN",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576986402
+                }
+            },
+            "lastAccept": 1576986402
+        },
+        {
+            "pos": 343,
+            "team": "23F3",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576989570
+                }
+            },
+            "lastAccept": 1576989570
+        },
+        {
+            "pos": 344,
+            "team": "san",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576995701
+                }
+            },
+            "lastAccept": 1576995701
+        },
+        {
+            "pos": 345,
+            "team": "Hacxter",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1576998405
+                }
+            },
+            "lastAccept": 1576998405
+        },
+        {
+            "pos": 346,
+            "team": "Butterfly",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1577000139
+                }
+            },
+            "lastAccept": 1577000139
+        },
+        {
+            "pos": 347,
+            "team": "slygoemon",
+            "score": 50,
+            "taskStats": {
+                "Sanity check": {
+                    "points": 50,
+                    "time": 1577002116
+                }
+            },
+            "lastAccept": 1577002116
+        }
+    ]
+}
