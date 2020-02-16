@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Scam | Report</title>
+    </head>
+    <body>
+        <h1>Found a bug? Please report it asap</h1>
+        <form method=POST action="/report">
+            <input type="text" name="url" placeholder="https://scam-generator.web.jctf.pro" />
+            <!--<input type="text" name="promo_code" placeholder="PROMO_CODE"/>-->
+            {{ recaptcha }}
+            <button>Submit</button>
+        </form>
+    </body>
+</html>

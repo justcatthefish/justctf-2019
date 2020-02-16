@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" /> 
+	<title></title>
+	<script type="text/javascript" src="math.js"></script>
+</head>
+<body>
+	<div style="position: relative;">
+		<canvas id="layer1" width="4000" height="4000" 
+		style="position: absolute; left: 0; top: 0; z-index: 2;"></canvas>
+		<canvas id="layer2" width="4000" height="4000" 
+		style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+		<canvas id="layer3" width="4000" height="4000" 
+		style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>   
+	</div>
+
+
+	<canvas id="canv" height="4000" width="4000">
+	</canvas>
+	<div id="cons">
+
+	</div>
+	<script type="text/javascript">
+		var c=document.getElementById("layer1");
+		var cc=document.getElementById("layer2");
+		var ccc=document.getElementById("layer3");
+
+		var ctx=c.getContext("2d");
+		var cctx=cc.getContext("2d");
+		var ccctx=ccc.getContext("2d");
+
+		var delta = 0;
+
+		function drawCircle(x, y, r)
+		{
+			ctx.beginPath();
+			ctx.arc(x,y,r,0,(2)*Math.PI);
+			ctx.stroke();
+		}
+
+		function drawCircleFill(x, y, r)
+		{
+			ctx.beginPath();
+			ctx.arc(x,y,r,0,(2)*Math.PI);
+			ctx.fill();
+		}
+
+		var result = 

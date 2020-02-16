@@ -1,0 +1,166 @@
+<html>
+<head>
+    <title>Memes Review</title>
+    <link rel="stylesheet" href="static/spectre.min.css">
+</head>
+<body class="bg-gray">
+    <div class="container">
+        <div class="columns">
+            <div class="column col-2"></div>
+            <div class="column col-8">
+                <h1>Memes Review</h1>
+
+                <div class="column col-12">
+                    <img style="max-height: 390px;" src="__MEME__" class="img-responsive" alt="meme">
+                    <div class="toast" style="display: none;" id="message_report"></div>
+                    <button onclick="onReport();" class="btn btn-error">This meme is really bad &#x1F622;report to admin</button>
+                </div>
+                <div class="column col-12">
+                    <div class="panel">
+                        <div class="panel-header">
+                            <div class="panel-title h6">Comments</div>
+                        </div>
+                        <div class="panel-body" id="comments"></div>
+                        <div class="panel-footer">
+                            <div class="toast" style="display: none;" id="message_add"></div>
+                            <div class="input-group">
+                                <input class="form-input" type="text" id="form_comment" maxlength="180" placeholder="Good meme">
+                                <button onclick="onAddComment();" class="btn btn-primary input-group-btn">Post comment</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column col-2"></div>
+        </div>
+    </div>
+</body>
+<script>
+    let sandboxPath = "/" + (new URL(window.location.href)).pathname.split('/')[1];
+    if(sandboxPath.length !== 33) {
+        sandboxPath = "";
+    }
+
+    const arrFirstNames = ["Olivia","Oliver","Amelia","George","Isla","Harry","Ava","Noah","Emily","Jack","Sophia","Charlie","Grace","Leo","Mia","Jacob","Poppy","Freddie","Ella","Alfie"];
+    const arrLastNames = ["Smith","Johnson","Williams","Jones","Brown","Davis","Miller","Wilson"];
+    function randomChoice(arr) {
+        return arr[Math.floor(Math.random() * arr.length)];
+    }
+    function getName() {
+        return randomChoice(arrFirstNames) + " " + randomChoice(arrLastNames);
+    }
+
+    async function getComments() {
+        const resp = await fetch(`${sandboxPath}/api/v1/comments`);
+        if(resp.status !== 200) {
+            throw Error('status not 200');
+        }
+        const data = await resp.text();
+        return JSON.parse(data)['data'] || [];
+    }
+    async function reportMeme() {
+        const resp = await fetch(`${sandboxPath}/api/v1/report_meme`, {
+            method: 'POST',
+            body: JSON.stringify({}),
+        });
+        if(resp.status !== 201) {
+            throw Error('status not 201');
+        }
+    }
+    async function addComment(input) {
+        const resp = await fetch(`${sandboxPath}/api/v1/add_comment`, {
+            method: 'POST',
+            body: JSON.stringify(input),
+        });
+        if(resp.status !== 201) {
+            throw Error('status not 201');
+        }
+    }
+
+    async function renderComments() {
+        const comments = await getComments();
+        let html = "";
+        for(let i=0; i<comments.length; i++) {
+            html += `
+                 <div class="tile">
+                    <div class="tile-icon">
+                        <figure class="avatar" data-initial="" id="comment_${i}_nickname_initial"></figure>
+                    </div>
+                    <div class="tile-content">
+                        <p class="tile-title text-bold" id="comment_${i}_nickname"></p>
+                        <p class="tile-subtitle" id="comment_${i}_comment"></p>
+                    </div>
+                </div>`;
+        }
+        document.querySelector("#comments").innerHTML = html;
+
+        for(let i=0; i<comments.length; i++) {
+            let arr = comments[i].nickname.split(' ');
+            let initial = 'NN';
+            if (arr.length >= 2) {
+                initial = arr[0].substring(0, 1) + arr[1].substring(0, 1);
+            }
+            document.querySelector(`#comment_${i}_nickname_initial`).setAttribute('data-initial', initial);
+            document.querySelector(`#comment_${i}_nickname`).textContent = comments[i].nickname;
+            document.querySelector(`#comment_${i}_comment`).textContent = comments[i].comment;
+        }
+    }
+
+    function onAddComment() {
+        (async () => {
+            const form = {
+                nickname: getName(),
+                comment: document.querySelector("#form_comment").value || '',
+            };
+            try {
+                await addComment(form);
+                document.querySelector("#message_add").className = "toast toast-success";
+                document.querySelector("#message_add").textContent = "Success!";
+                document.querySelector("#message_add").style.display = 'block';
+                setTimeout(() => {
+                    document.querySelector("#message_add").style.display = 'none';
+                }, 2500);
+            } catch (e) {
+                document.querySelector("#message_add").className = "toast toast-error";
+                document.querySelector("#message_add").textContent = "An error occurred!";
+                document.querySelector("#message_add").style.display = 'block';
+                setTimeout(() => {
+                    document.querySelector("#message_add").style.display = 'none';
+                }, 2500);
+            }
+            await renderComments();
+        })();
+        return false;
+    }
+
+    function onReport() {
+        (async () => {
+            try {
+                document.querySelector("#message_report").className = "toast toast-primary";
+                document.querySelector("#message_report").textContent = "Loading...";
+                document.querySelector("#message_report").style.display = 'block';
+
+                await reportMeme();
+                document.querySelector("#message_report").className = "toast toast-success";
+                document.querySelector("#message_report").textContent = "Success!";
+                document.querySelector("#message_report").style.display = 'block';
+                setTimeout(() => {
+                    document.querySelector("#message_report").style.display = 'none';
+                }, 2500);
+            } catch (e) {
+                document.querySelector("#message_report").className = "toast toast-error";
+                document.querySelector("#message_report").textContent = "An error occurred!";
+                document.querySelector("#message_report").style.display = 'block';
+                setTimeout(() => {
+                    document.querySelector("#message_report").style.display = 'none';
+                }, 2500);
+            }
+            await renderComments();
+        })();
+        return false;
+    }
+
+    renderComments();
+</script>
+<!-- <script src="static../">code</script> -->
+</html>

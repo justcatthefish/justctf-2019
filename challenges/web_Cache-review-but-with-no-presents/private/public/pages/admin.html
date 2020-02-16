@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Memes Review</title>
+</head>
+<body>
+<div>
+    My flag: <div id="flag">Maybe loading...</div>
+</div>
+</body>
+<script>
+    let sandboxPath = "/" + (new URL(window.location.href)).pathname.split('/')[1];
+    if(sandboxPath.length !== 33) {
+        sandboxPath = "";
+    }
+
+    async function getFlag() {
+        let data;
+        try {
+            const resp = await fetch(`${sandboxPath}/api/v1/flag`, {method: 'POST'});
+            if(resp.status !== 200) {
+                throw Error('status not 200');
+            }
+            data = await resp.text();
+            data = JSON.parse(data)['data']['flag'];
+        } catch (e) {
+        }
+        return data;
+    }
+
+    (async () => {
+        document.querySelector("#flag").innerHTML = await getFlag();
+    })()
+</script>
+</html>

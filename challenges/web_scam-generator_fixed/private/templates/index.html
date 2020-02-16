@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Scam Generator</title>
+    </head>
+    <body>
+        <h1>Welocme {{user}}, who would you want to scam today?</h1>
+        
+        <div class="scam_panel">
+            <h2>Identities</h2> 
+            <table id="identities">
+                <tr>
+                    <th>Check</th>
+                    <th>Name</th>
+                    <th>Props</th>
+                </tr>
+                
+                {% for identity in identities %}
+                    <tr>
+                        <td>
+                            <input type="checkbox" value="{{ identity.id }}"/>
+                        </td>
+                        <td>
+                            <span>{{ identity.name }}</span>
+                        </td>
+                        <td>
+                            <pre>{{ identity.props }}</pre>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </table>
+
+            <h2>Victims</h2> 
+            <table id="victims">
+                <tr>
+                    <th>Check</th>
+                    <th>Name</th>
+                    <th>Props</th>
+                </tr>
+                
+                {% for identity in victims %}
+                    <tr>
+                        <td>
+                            <input type="checkbox" value="{{ identity.id }}"/>
+                        </td>
+                        <td>
+                            <span>{{ identity.name }}</span>
+                        </td>
+                        <td>
+                            <pre>{{ identity.props }}</pre>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </br></br>
+        <div class="scamgenerator">
+            <span id="scamurl"></span>
+        </div>
+
+        </div>
+
+        <div class="forms">
+            <h2>Add Identity</h2>
+            <form method=POST action="/add_identity">
+                <input name="firstname" placeholder="first name"/>
+                <input name="surname"  placeholder="surname"/>
+                <input name="fullname" placeholder="full name" hidden/>
+                <input name="phone" placeholder="phone number"/>
+                <button>Add new identity</button>
+            </form>
+
+            <h2>Add Victim</h2>
+            <form method=POST action="/add_victim">
+                <input name="firstname" placeholder="first name"/>
+                <input name="surname"  placeholder="surname"/>
+                <input name="fullname" placeholder="full name" hidden/>
+                <input name="money" placeholder="money"/>
+                <select name="type">
+                    <option value="scam.victim.firstname" selected>Firstname</option>
+                    <option value="scam.victim.surname">Surname</option>
+                    <option value="scam.victim.fullname">Firstname + Surname</option>
+                </select>
+                <button>Add new victim</button>
+            </form>
+        </div>
+   
+        
+        <script>
+            const checkboxes_i=document.querySelectorAll('#identities input[type=checkbox]');
+            const checkboxes_v=document.querySelectorAll('#victims input[type=checkbox]');
+            const genScam = document.querySelector('#generateScam');
+            const scamurl = document.querySelector('#scamurl');
+            
+            function generate_scam_url(){
+                let identity = document.querySelector('#identities input[type=checkbox][checked]')
+                let victim = document.querySelector('#victims input[type=checkbox][checked]')
+
+                if(!identity || !victim) return
+                let url = `/gen_scam?scammer=${identity.value}&victim=${victim.value}`
+                scamurl.innerHTML = `<a href="${url}">${url}</a>`
+            }
+
+            const unselect_except = (arr, el)=>{
+                arr.forEach(x=>{x.removeAttribute('checked');x.checked=false});
+                el.setAttribute('checked', 1);
+                el.checked = true;
+                generate_scam_url()
+            }
+
+            const before_submit = ev =>{
+                let e = ev.target;
+                let f = e.querySelector('input[name=firstname]').value
+                let s = e.querySelector('input[name=surname]').value
+                e.querySelector('input[name=fullname]').value = `${f} ${s}`
+            }
+
+            document.querySelectorAll('.forms form').forEach(x=>{x.onsubmit = before_submit})
+            
+
+            unselect_except(checkboxes_i, checkboxes_i[0]);
+            unselect_except(checkboxes_v, checkboxes_v[0]);
+
+            checkboxes_i.forEach(x=>{x.onchange=()=>unselect_except(checkboxes_i,x)})
+            checkboxes_v.forEach(x=>{x.onchange=()=>unselect_except(checkboxes_v,x)})
+
+        </script>
+    </body>
+</html>

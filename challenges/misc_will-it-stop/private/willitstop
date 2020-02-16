@@ -1,0 +1,69 @@
+#!/usr/bin/env python3
+import signal
+import sys, time, random
+from subprocess import Popen, PIPE
+
+def handler(signum, frame):
+    print('End of time! Bye!')
+    sys.stdout.flush()
+    sys.exit(1)
+
+signal.signal(signal.SIGALRM, handler)
+signal.alarm(115)
+
+random.seed(time.time())
+
+def wait(n):
+    for _ in range(n):
+        time.sleep(1) # simulate execution
+        sys.stdout.write('.')
+        sys.stdout.flush()
+    sys.stdout.write('\n')
+    sys.stdout.flush()
+
+hello = 'How many lines does your C program parsing a Python code have?\n'
+sys.stdout.write(hello)
+sys.stdout.flush()
+
+try:
+    nlines = int(sys.stdin.readline(), 10)
+except:
+    sys.stdout.write("You don't even know what a NUMBER is?!? BYE DOOMER!\n")
+    sys.stdout.flush()
+    sys.exit(1)
+
+give_me_prog = 'Write your program now:\n'
+sys.stdout.write(give_me_prog)
+sys.stdout.flush()
+
+try:
+    user_program = ''.join([sys.stdin.readline() for _ in range(nlines)])
+
+    sys.stdout.write("Ok, let's build it!\n")
+    sys.stdout.flush()
+
+    gcc = Popen(
+            ['gcc', '-o', '/dev/null', '-x', 'c', '-'], 
+            stdin=PIPE, 
+            stderr=PIPE,
+        )
+
+    out = gcc.communicate(input=user_program.encode())
+
+
+    if gcc.returncode != 0:
+        sys.stdout.write('COMPILATION FAILED\n')
+        sys.stdout.buffer.write(out[1])
+        sys.stdout.flush()
+    else:
+        wait(random.randint(3, 8))
+        sys.stdout.write('GO LEARN MORE CS OR YOU WILL NEVER PASS IT!!11!\n')
+        sys.stdout.flush()
+except MemoryError:
+    sys.stdout.write("Compilation exceeded resource limits, please don't do that!\n")
+    sys.stdout.flush()
+    sys.exit(1)
+except:
+    sys.stdout.write("Unrecognized error. Try again.\n")
+    sys.stdout.flush()
+    sys.exit(1)

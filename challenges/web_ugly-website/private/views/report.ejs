@@ -1,0 +1,13 @@
+<%- include('includes/header') %>
+<body>
+    <h1>Competition Form</h1>
+    <form action="/report" method="POST">
+        <button>I want to win!</button>
+        <span>Do you have any code?</span><input name="code" placeholder="CODE" />
+        
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <div class="g-recaptcha" data-sitekey="<%= site_key %>"></div>
+                
+    </form>
+</body>
+<%- include('includes/footer') %>

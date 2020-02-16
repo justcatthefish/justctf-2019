@@ -1,0 +1,1 @@
+justCTF{A_handwritten_flag_appears!}

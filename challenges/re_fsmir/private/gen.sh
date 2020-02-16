@@ -1,0 +1,1 @@
+python3 gencases.py > ../public/fsmir.sv

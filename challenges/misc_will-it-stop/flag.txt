@@ -1,0 +1,2 @@
+justCTF:is_this_the_real_flag__is_this_just_fantasy__open_your_eyes_look_bellow_in_the_file_and_see
+justCTF{mama_just_got_a_flag}

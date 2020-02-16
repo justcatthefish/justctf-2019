@@ -1,0 +1,123 @@
+
+
+
+		var N = result.length
+
+
+		var inp;
+		inp= new Array();
+
+
+		for (var k = 0; k < N; k++){
+			var suma = math.complex(0, 0);
+			for (var j = 0; j < N; j++)
+			{
+				var integers = 2*j*k;
+				my_exponent = math.complex(0.0, Math.PI*integers/N);
+				suma =math.add(suma, math.multiply(result[j], math.exp(my_exponent)));
+			}
+
+			inp[k]=math.divide(suma, N);
+		}
+
+
+		ccctx.fillStyle = "rgba(0,0,0,0)";
+		ccctx.clearRect(0,0,ccc.width, ccc.height);
+		ccctx.fillRect(0,0,ccc.width, ccc.height);
+		ccctx.strokeStyle="#00FF00";
+		ccctx.translate(0.5, 0.5);
+		ccctx.lineWidth=2;
+		ccctx.beginPath();
+		ccctx.moveTo(600+ 200*inp[0].re, 600 - 200*inp[0].im);
+
+		for(var k =0; k<N; k++)
+			ccctx.lineTo(600+ 200*inp[k].re, 600 - 200*inp[k].im);
+
+		ccctx.stroke();
+
+
+		var starttime = performance.now();
+		var cstep =0;
+
+		function draw(timestamp)
+		{
+
+			step = Math.round((timestamp-starttime)/20);
+			if(step == cstep)
+			{
+				window.requestAnimationFrame(draw);
+				return;
+			}
+
+			if(step >=N)
+			{
+				starttime=performance.now();
+				window.requestAnimationFrame(draw);
+				return;
+			}
+			cstep = step;
+
+			ctx.clearRect(0, 0, c.width, c.height);
+			cctx.fillStyle = "rgba(255,255,255,0.2)";
+			cctx.fillRect(0, 0, c.width, c.height);
+			cctx.strokeStyle="#000000";
+			cctx.lineWidth=5;
+
+			cctx.beginPath();
+
+			cctx.moveTo(600+ 200*inp[Math.abs(step-10)].re, 600 - 200*inp[Math.abs(step-10)].im);
+			for(var k = Math.abs(step-10); k<=step; k++)
+			{
+				cctx.lineTo(600+ 200*inp[k].re, 600 - 200*inp[k].im);
+			}
+			cctx.stroke();
+			ctx.beginPath();
+
+			var k = step;
+			var lastx=600;
+			var lasty=600;
+
+			for(var j = 0; j < N; j++)
+			{
+				var integers = 2*j*k;
+				my_exponent = math.complex(0.0, Math.PI*integers/N);
+				buf =math.multiply(result[j], math.exp(my_exponent));
+				suma =math.add(suma, buf);
+
+				buf=math.multiply(buf, 200/N);
+				ctx.strokeStyle="#0000FF";
+
+				if(math.abs(buf)>1 && j!=0)
+				{
+					drawCircle(lastx, lasty, math.abs(buf));
+
+					ctx.strokeStyle="#FF0000";
+					ctx.moveTo(lastx, lasty);            
+					lastx+=(buf.re);
+					lasty-=(buf.im);
+					ctx.lineTo(lastx, lasty);
+					ctx.stroke();
+				}
+				else
+				{
+					lastx+=(buf.re);
+					lasty-=(buf.im);
+				}
+			}
+			ctx.strokeStyle="#000000";
+			drawCircleFill(lastx, lasty, 3);
+
+
+
+			window.requestAnimationFrame(draw);
+
+		}
+
+
+		window.requestAnimationFrame(draw);
+
+
+
+	</script>
+</body>
+</html>

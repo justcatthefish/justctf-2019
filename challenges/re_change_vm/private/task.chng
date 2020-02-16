@@ -1,0 +1,116 @@
+;print greeters
+
+alias str_ptr r1
+alias str_len r2
+
+set str_ptr 0
+set str_len 40
+write str_ptr str_len            ;print greeter1
+set str_ptr 40
+set str_len 3
+write str_ptr str_len            ;print greeter2
+
+enc 1234
+
+;read password
+
+alias pass_ptr r4
+alias pass_len r5
+set pass_ptr 2048
+set pass_len 47
+
+enc 7777
+
+alias read_len r10
+alias expected_read_len r11
+set read_len 50
+set expected_read_len 48
+read pass_ptr read_len           ;password is now stored at mem[2048]
+
+;check len
+
+enc 55555
+
+alias pass_len_ok1 $ 24
+set r3 pass_len_ok1
+je r0 expected_read_len r3
+  set str_ptr 59           
+  set str_len 19
+  write str_ptr str_len            ;pass len wrong
+  exit 0
+
+enc 2345
+
+set str_ptr 44
+set str_len 15
+write str_ptr str_len          ;pass len ok
+
+add r3 pass_ptr r0
+set r6 0
+storeb r3 r6
+
+enc 666
+
+; check if password is proper
+
+alias i r6
+alias hard1 r7
+alias hard2 r8
+alias code_entry_point r9
+alias is_good r12
+alias tmp1 r1
+alias tmp2 r2
+alias input r11
+
+set i 0
+set hard1 334
+set hard2 487
+set code_entry_point 8192
+set is_good 0
+set r1 0
+set r2 0
+set input 2048
+
+enc 8989
+
+alias loop_label $
+  load tmp1 input   
+
+  load tmp2 hard1
+  xor tmp1 tmp1 tmp2
+
+  load tmp2 hard2
+  xor tmp1 tmp1 tmp2
+
+  load tmp2 code_entry_point
+  xor tmp1 tmp1 tmp2
+
+  xor tmp1 tmp1 i
+
+  add is_good is_good tmp1
+
+  set r14 1
+  add i i r14
+  add hard1 hard1 r14
+  add hard2 hard2 r14
+  add code_entry_point code_entry_point r14
+  add input input r14
+
+  set r15 loop_label
+  jb i pass_len r15
+
+enc 808
+
+alias password_ok $ 28
+set r0 password_ok
+set r1 0
+je is_good r1 r0
+  set r1 59
+  set r2 19
+  write r1 r2      ;wrong password
+  exit 0
+
+set r1 536
+set r2 33
+write r1 r2        ;good password. congratulations!
+exit 0

@@ -1,0 +1,26 @@
+<%- include('includes/header') %>
+<body>
+    <h1>Welcome <%= user.name %> to the <strong>Ugly Website</strong></h1>
+
+    <p>If you want for this page to look better, please upload your own stylesheets</p>
+    <!-- Maximum file size is 500kb -->
+    <form action="/upload_css" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <button>Upload</button>
+    </form>
+
+    If you want to take part in the "Best Design" contest please <a href="/report"><code>submit</code></a> your candidature.
+
+    <form action="/api/secret" method="GET">
+        <input class="sgn" name="sgn" value="<%= signature %>" hidden>
+        <input class="timestamp" name="timestamp" value="<%= timestamp %>" hidden>
+        <input class="uid" name="user_id" value="<%= user.id %>" hidden>
+        <button>Show me the secret</button>
+    </form>
+    
+    <!-- Friends of judges have code for <%= hard_timeout %> seconds! Do you know any of them? -->
+    <p>With this code <code title="<%= user.code %>"><%= user.code %></code> judges will take <%= easy_timeout %> seconds to evaluate your request!</p>
+
+
+</body>
+<%- include('includes/footer') %>

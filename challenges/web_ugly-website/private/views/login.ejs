@@ -1,0 +1,10 @@
+<%- include('includes/header') %>
+<body>
+    <h1>Please Login First</h1>
+    <form action="/login" method="POST">
+        <input maxlength="50" placeholder="name" name="name"/>
+        <input maxlength="50" placeholder="secret" name="secret"/>
+        <button>Submit</button>
+    </form>
+</body>
+<%- include('includes/footer') %>

@@ -1,0 +1,1 @@
+justCTF{Oh_I_didnt_realize__GLOBAL__was_a_thing_without_parentheses_Hope_this_time_you_found_the_expected_XS-Search?!}

@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    environment:
+      - FLAG
+    ports:
+      - 8086:80
+    cap_add:
+      - NET_ADMIN
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "30m"
+        max-file: "5"

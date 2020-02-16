@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<style>
+body {
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size:30px;
+  margin: 10px 50px;
+  letter-spacing: 6px;
+  font-weight: bold;
+}
+</style>
+
+<form action="upload.php" method="post" enctype="multipart/form-data">
+<div>
+    <p>Initialization of firmware upload.................</p>
+    <p>select your firmware .zip file:</p>
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Firmware" name="submit">
+</div>
+</form>
+
+</body>
+</html>

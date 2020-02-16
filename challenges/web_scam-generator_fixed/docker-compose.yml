@@ -1,0 +1,48 @@
+version: '3'
+
+services:
+  app:
+    build: private
+    restart: unless-stopped
+    cap_drop:
+      - all
+    cap_add:
+      - NET_BIND_SERVICE
+    links:
+      - db
+    environment:
+      - DATABASE_URL=postgres://app:app@db:5432/app
+      - TASK_ENVS
+      - FLAG
+    ports:
+      - 127.0.0.1:8093:8080
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "30m"
+        max-file: "5"
+
+  db:
+    image: postgres
+    restart: unless-stopped
+    environment:
+      - POSTGRES_PASSWORD=app
+      - POSTGRES_USER=app
+      - POSTGRES_DB=app
+
+  report-service:
+    build: report-service
+    restart: unless-stopped
+    cap_drop:
+      - all
+    cap_add:
+      - NET_BIND_SERVICE
+    environment:
+      - TASK_ENVS
+    ports:
+      - 127.0.0.1:4444:8080
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "30m"
+        max-file: "5"

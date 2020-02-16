@@ -1,0 +1,9 @@
+flask
+bleach
+Flask-SQLAlchemy
+flask-session
+Flask-SQLAlchemy-Session
+flask-login
+flask-wtf
+gunicorn
+psycopg2

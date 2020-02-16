@@ -1,0 +1,2 @@
+hint1: display is compatible with HD44780
+hint2: there are only 6 signals coming from the board

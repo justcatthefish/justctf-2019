@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" /> 
+    <title></title>
+    <script type="text/javascript" src="math.js"></script>
+</head>
+<body>
+<div style="position: relative;">
+ <canvas id="layer1" width="4000" height="4000" 
+   style="position: absolute; left: 0; top: 0; z-index: 2;"></canvas>
+ <canvas id="layer2" width="4000" height="4000" 
+   style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+ <canvas id="layer3" width="4000" height="4000" 
+   style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>   
+</div>
+
+
+<canvas id="canv" height="4000" width="4000">
+</canvas>
+<div id="cons">
+
+</div>
+<script type="text/javascript">
+var c=document.getElementById("layer1");
+var cc=document.getElementById("layer2");
+var ccc=document.getElementById("layer3");
+
+var ctx=c.getContext("2d");
+var cctx=cc.getContext("2d");
+var ccctx=ccc.getContext("2d");
+
+var delta = 0;
+
+function drawCircle(x, y, r)
+{
+ctx.beginPath();
+ctx.arc(x,y,r,0,(2)*Math.PI);
+ctx.stroke();
+}
+
+function drawCircleFill(x, y, r)
+{
+ctx.beginPath();
+ctx.arc(x,y,r,0,(2)*Math.PI);
+ctx.fill();
+}
+
+    var points = [
+math.complex(482.586, 57.086),
+math.complex(486.805, 54.51),
+math.complex(490.301, 55.487),
+math.complex(491.355, 57.609),
+math.complex(489.68, 61.057),
+math.complex(487.672, 65.435),
+math.complex(486.906, 70.69),
+math.complex(486.473, 72.8),
+math.complex(486.496, 73.539),
+math.complex(488.121, 74.345),
+math.complex(492.141, 75.076),
+math.complex(493.641, 75.832),
+math.complex(493.398, 76.729),
+math.complex(491.684, 78.478),
+math.complex(490.281, 79.724),
+math.complex(489.754, 80.754),
+math.complex(489.301, 82.503),
+math.complex(489.133, 84.277),
+math.complex(489.68, 86.972),
+math.complex(490.332, 89.722),
+math.complex(490.559, 92.958),
+math.complex(490.43, 96.397),
+math.complex(489.918, 99.77),
+math.complex(489.047, 102.624),
+math.complex(486.762, 104.842),
+math.complex(483.301, 105.615),
+math.complex(480.023, 105.22),
+math.complex(478.879, 102.695),
+math.complex(463.652, 88.152),
+math.complex(464.121, 84.812),
+math.complex(466.363, 83.359),
+math.complex(469.508, 76.052),
+math.complex(471.68, 71.259),
+math.complex(474.719, 65.618),
+math.complex(475.383, 63.362),
+math.complex(476.328, 59.574),
+math.complex(473.496, 59.728),
+math.complex(466.895, 59.877),
+math.complex(461.238, 59.159),
+math.complex(461.574, 61.697),
+math.complex(462.559, 64.758),
+math.complex(462.691, 66.976),
+math.complex(463.203, 70.602),
+math.complex(463.797, 74.544),
+math.complex(464.715, 79.425),
+math.complex(466.363, 83.359),
+math.complex(468.539, 86.507),
+math.complex(466.859, 89.382),
+math.complex(463.652, 88.152),
+math.complex(464.121, 84.812),
+math.complex(461.98, 88.327),
+math.complex(460.844, 88.464),
+math.complex(454.887, 86.453),
+math.complex(454.523, 86.881),
+math.complex(456.484, 86.786),
+math.complex(458.816, 85.901),
+math.complex(459.48, 83.903),
+math.complex(458.047, 81.888),
+math.complex(454.734, 79.591),
+math.complex(453.645, 78.731),
+math.complex(452.844, 77.78),
+math.complex(453.02, 76.426),
+math.complex(453.641, 74.985),
+math.complex(454.547, 73.988),
+math.complex(455.652, 74.208),
+math.complex(455.316, 75.529),
+math.complex(452.363, 76.376),
+math.complex(447.488, 77.016),
+math.complex(446.461, 78.328),
+math.complex(446.297, 81.203),
+math.complex(446.461, 83.6),
+math.complex(446.23, 83.118),
+math.complex(445.406, 81.141),
+math.complex(444.477, 79.259),
+math.complex(443.621, 77.955),
+math.complex(442.895, 77.523),
+math.complex(442.113, 78.465),
+math.complex(441.695, 80.463),
+math.complex(441.621, 82.37),
+math.complex(441.098, 83.404),
+math.complex(439.836, 84.925),
+math.complex(438.551, 84.318),
+math.complex(437.063, 81.552),
+math.complex(435.988, 78.706),
+math.complex(435.75, 77.523),
+math.complex(436.73, 79.404),
+math.complex(436.793, 82.383),
+math.complex(435.695, 84.817),
+math.complex(433.199, 84.925),
+math.complex(431.68, 83.118),
+math.complex(431.145, 80.493),
+math.complex(431.887, 78.071),
+math.complex(434.293, 76.999),
+math.complex(435.262, 77.045),
+math.complex(435.887, 78.765),
+math.complex(436.262, 79.566),
+math.complex(435.375, 79.703),
+math.complex(435.285, 80.405),
+math.complex(435.043, 81.365),
+math.complex(434.082, 82.457),
+math.complex(432.242, 83.915),
+math.complex(430.984, 84.526),
+math.complex(427.867, 85.332),
+math.complex(424.949, 84.576),
+math.complex(423.477, 82.275),
+math.complex(424.27, 78.544),
+math.complex(425.105, 77.651),
+math.complex(426.348, 76.746),
+math.complex(426.918, 77.128),
+math.complex(427.648, 78.017),
+math.complex(427.629, 79.388),
+math.complex(426.988, 80.895),
+math.complex(426.023, 82.137),
+math.complex(423.633, 83.575),
+math.complex(420.734, 84.115),
+math.complex(415.012, 84.43),
+math.complex(413, 84.734),
+math.complex(412.691, 84.509),
+math.complex(413.309, 84.102),
+math.complex(417.176, 82.893),
+math.complex(418.402, 82.37),
+math.complex(419.305, 80.493),
+math.complex(418.992, 78.499),
+math.complex(417.68, 77.103),
+math.complex(415.563, 77.028),
+math.complex(413.98, 77.859),
+math.complex(412.898, 78.756),
+math.complex(412.547, 79.599),
+math.complex(412.727, 80.119),
+math.complex(412.02, 80.368),
+math.complex(411.555, 83.616),
+math.complex(412.746, 88.908),
+math.complex(414.605, 94.437),
+math.complex(416.238, 98.545),
+math.complex(417.34, 100.493),
+math.complex(418.148, 101.253),
+math.complex(417.82, 98.686),
+math.complex(416.973, 94.711),
+math.complex(415.59, 89.261),
+math.complex(413.031, 79.728),
+math.complex(412.492, 77.979),
+math.complex(412.023, 77.523),
+math.complex(412.789, 82.029),
+math.complex(412.789, 82.881),
+math.complex(410.594, 83.604),
+math.complex(407.031, 84.264),
+math.complex(404.023, 84.63),
+math.complex(402.34, 84.746),
+math.complex(401.816, 84.414),
+math.complex(402.391, 84.131),
+math.complex(403.738, 84.036),
+math.complex(405.977, 83.251),
+math.complex(407.355, 82.399),
+math.complex(407.949, 81.826),
+math.complex(408.207, 80.484),
+math.complex(407.523, 78.993),
+math.complex(406.344, 77.734),
+math.complex(405.098, 77.012),
+math.complex(404.262, 77.132),
+math.complex(402.004, 78.067),
+math.complex(401.184, 78.889),
+math.complex(400.477, 80.534),
+math.complex(400.246, 81.651),
+math.complex(399.934, 86.229),
+math.complex(401.227, 92.343),
+math.complex(403.59, 98.142),
+math.complex(406.41, 102.271),
+math.complex(406.559, 101.718),
+math.complex(405.914, 98.599),
+math.complex(403.137, 87.998),
+math.complex(402.328, 84.156),
+math.complex(401.691, 82.158),
+math.complex(401.102, 80.277),
+math.complex(400.984, 78.59),
+math.complex(401.09, 78.943),
+math.complex(401.555, 80.916),
+math.complex(401.348, 82.765),
+math.complex(400.715, 84.451),
+math.complex(399.621, 85.797),
+math.complex(397.992, 86.711),
+math.complex(395.598, 86.079),
+math.complex(393.746, 83.483),
+math.complex(392.668, 80.609),
+math.complex(392.523, 79.072),
+math.complex(393.082, 79.313),
+math.complex(393.68, 80.949),
+math.complex(394.133, 82.977),
+math.complex(393.98, 84.854),
+math.complex(393.023, 86.391),
+math.complex(391.031, 87.496),
+math.complex(389.23, 87.816),
+math.complex(388.625, 87.546),
+math.complex(386.199, 85.053),
+math.complex(385.934, 81.71),
+math.complex(387.93, 79.018),
+math.complex(392.125, 78.291),
+math.complex(393.766, 88.335),
+math.complex(372.918, 89.132),
+math.complex(369.977, 88.892),
+math.complex(367.68, 88.759),
+math.complex(362.977, 89.286),
+math.complex(359.684, 92.58),
+math.complex(356.344, 97.299),
+math.complex(356.355, 101.291),
+math.complex(357.969, 102.711),
+math.complex(358.906, 103.077),
+math.complex(362.18, 101.627),
+math.complex(363.051, 96.913),
+math.complex(362.594, 91.297),
+math.complex(361.957, 87.363),
+math.complex(361.992, 83.625),
+math.complex(362.223, 82.918),
+math.complex(362.469, 83.396),
+math.complex(362.973, 85.066),
+math.complex(362.305, 87.114),
+math.complex(360.867, 88.68),
+math.complex(358.906, 89.041),
+math.complex(357.371, 87.728),
+math.complex(357.105, 85.473),
+math.complex(357.848, 83.267),
+math.complex(359.414, 81.897),
+math.complex(360.379, 82.129),
+math.complex(361.203, 82.777),
+math.complex(361.711, 83.683),
+math.complex(361.18, 85.261),
+math.complex(359.871, 86.844),
+math.complex(358.184, 88.223),
+math.complex(356.828, 89.045),
+math.complex(355.035, 89.124),
+math.complex(353.941, 87.674),
+math.complex(353.418, 85.573),
+math.complex(353.336, 83.055),
+math.complex(353.055, 81.444),
+math.complex(353.23, 81.307),
+math.complex(353.789, 82.611),
+math.complex(354.77, 84.779),
+math.complex(354.699, 85.739),
+math.complex(353.977, 87.288),
+math.complex(352.703, 88.983),
+math.complex(351.004, 90.005),
+math.complex(348.953, 89.552),
+math.complex(347.426, 87.35),
+math.complex(347.434, 84.555),
+math.complex(348.777, 82.154),
+math.complex(351.285, 81.136),
+math.complex(352.996, 81.456),
+math.complex(353.367, 81.967),
+math.complex(353.367, 82.619),
+math.complex(352.863, 83.82),
+math.complex(351.652, 85.693),
+math.complex(350.738, 87.255),
+math.complex(347.031, 88.439),
+math.complex(342.332, 89.71),
+math.complex(340.074, 90.192),
+math.complex(339.258, 90.316),
+math.complex(340.02, 87.184),
+math.complex(339.387, 74.926),
+math.complex(339.258, 73.223),
+math.complex(339.324, 74.366),
+math.complex(339.863, 77.19),
+math.complex(340.227, 79.018),
+math.complex(341.184, 80.688),
+math.complex(341.301, 81.643),
+math.complex(338.891, 82.05),
+math.complex(333.293, 82.511),
+math.complex(332.113, 82.665),
+math.complex(333.266, 82.686),
+math.complex(335.883, 81.909),
+math.complex(336.785, 81.714),
+math.complex(338.238, 82.154),
+math.complex(337.66, 82.017),
+math.complex(336.574, 82.017),
+math.complex(331.688, 83.13),
+math.complex(327.496, 83.899),
+math.complex(324.027, 84.189),
+math.complex(324.352, 84.148),
+math.complex(326.68, 83.882),
+math.complex(329.32, 82.968),
+math.complex(330.648, 82.673),
+math.complex(331.605, 82.918),
+math.complex(331.316, 83.99),
+math.complex(330.07, 86.781),
+math.complex(330, 88.58),
+math.complex(330.441, 91.243),
+math.complex(330.848, 93.527),
+math.complex(331.121, 100.439),
+math.complex(331.754, 104.049),
+math.complex(333.391, 106.902),
+math.complex(333.391, 103.841),
+math.complex(333.105, 101.502),
+math.complex(332.254, 96.979),
+math.complex(331.988, 93.959),
+math.complex(331.672, 88.144),
+math.complex(331.43, 86.42),
+math.complex(329.82, 78.594),
+math.complex(329.715, 74.083),
+math.complex(331.605, 71.184),
+math.complex(332.73, 72.01),
+math.complex(334.492, 74.386),
+math.complex(334.797, 74.565),
+math.complex(329.715, 74.083),
+math.complex(332.391, 91.683),
+math.complex(312.582, 91.82),
+math.complex(309.586, 91.538),
+math.complex(307.785, 91.737),
+math.complex(306.504, 91.018),
+math.complex(305.898, 88.127),
+math.complex(305.586, 86.611),
+math.complex(304.988, 84.871),
+math.complex(303.762, 83.201),
+math.complex(301.934, 82.889),
+math.complex(300.363, 83.745),
+math.complex(299.215, 84.979),
+math.complex(298.227, 86.943),
+math.complex(297.797, 88.509),
+math.complex(297.805, 90.748),
+math.complex(297.113, 88.534),
+math.complex(296.063, 85.307),
+math.complex(294.703, 82.731),
+math.complex(293.004, 82.125),
+math.complex(292, 84.281),
+math.complex(291.699, 87.558),
+math.complex(290.477, 90.208),
+math.complex(286.625, 90.541),
+math.complex(283.629, 88.8),
+math.complex(281.918, 86.025),
+math.complex(281.855, 83.28),
+math.complex(283.82, 81.614),
+math.complex(286.34, 81.415),
+math.complex(287.145, 82.083),
+math.complex(286.184, 82.968),
+math.complex(283.527, 83.392),
+math.complex(282, 82.989),
+math.complex(280.758, 82.125),
+math.complex(279.547, 82.437),
+math.complex(275.766, 82.923),
+math.complex(273.023, 83.492),
+math.complex(271.617, 83.587),
+math.complex(270.551, 83.4),
+math.complex(270.582, 82.906),
+math.complex(272.867, 84.268),
+math.complex(274.246, 87.579),
+math.complex(275.652, 94.113),
+math.complex(275.66, 93.589),
+math.complex(274.875, 90.333),
+math.complex(274.16, 87.903),
+math.complex(273.5, 82.956),
+math.complex(273.363, 80.293),
+math.complex(273.613, 78.553),
+math.complex(273.582, 79.13),
+math.complex(273.73, 80.704),
+math.complex(273.43, 82.146),
+math.complex(272.848, 83.143),
+math.complex(270.93, 83.629),
+math.complex(266.758, 83.475),
+math.complex(262.641, 83.143),
+math.complex(263.148, 83.396),
+math.complex(264.203, 83.811),
+math.complex(265.723, 85.215),
+math.complex(266.902, 87.068),
+math.complex(268.391, 91.33),
+math.complex(269.531, 93.095),
+math.complex(269.395, 92.563),
+math.complex(268.531, 90.312),
+math.complex(268.008, 86.889),
+math.complex(266.773, 79.94),
+math.complex(266.215, 77.784),
+math.complex(266.414, 78.843),
+math.complex(266.617, 80.322),
+math.complex(265.801, 85.656),
+math.complex(265.387, 88.318),
+math.complex(264.176, 91.471),
+math.complex(261.621, 92.838),
+math.complex(260.637, 92.152),
+math.complex(259.918, 90.545),
+math.complex(259.563, 88.763),
+math.complex(259.598, 87.45),
+math.complex(260.09, 86.462),
+math.complex(259.117, 85.12),
+math.complex(258.801, 83.998),
+math.complex(258.816, 82.889),
+math.complex(258.891, 84.002),
+math.complex(259.098, 87.62),
+math.complex(258.969, 89.868),
+math.complex(258.77, 91.097),
+math.complex(258.051, 92.073),
+math.complex(254.695, 91.945),
+math.complex(251.727, 90.42),
+math.complex(249.309, 88.771),
+math.complex(247.332, 87.99),
+math.complex(247.605, 88.455),
+math.complex(248.684, 89.012),
+math.complex(249.691, 88.979),
+math.complex(250.867, 88.044),
+math.complex(252.594, 85.664),
+math.complex(253.172, 84.306),
+math.complex(253.293, 83.014),
+math.complex(252.438, 82.125),
+math.complex(250.543, 82.208),
+math.complex(248.711, 83.276),
+math.complex(247.18, 84.896),
+math.complex(246.309, 86.499),
+math.complex(246.25, 88.136),
+math.complex(246.563, 90.578),
+math.complex(247.09, 92.136),
+math.complex(248.02, 93.544),
+math.complex(248.57, 93.847),
+math.complex(248.891, 93.452),
+math.complex(248.965, 91.899),
+math.complex(248.039, 87.342),
+math.complex(247.078, 83.4),
+math.complex(243.344, 84.675),
+math.complex(244.109, 87.417),
+math.complex(244.023, 90.383),
+math.complex(243.648, 91.55),
+math.complex(243.09, 92.327),
+math.complex(241.406, 92.256),
+math.complex(239.977, 89.735),
+math.complex(239.012, 86.715),
+math.complex(238.75, 85.44),
+math.complex(239.082, 86.009),
+math.complex(239.254, 88.829),
+math.complex(239.07, 90.428),
+math.complex(238.609, 91.741),
+math.complex(237.789, 92.925),
+math.complex(236.711, 93.859),
+math.complex(235.172, 93.353),
+math.complex(234.32, 90.428),
+math.complex(233.934, 86.15),
+math.complex(233.902, 85.44),
+math.complex(234.172, 89.897),
+math.complex(233.938, 91.193),
+math.complex(233.211, 92.414),
+math.complex(231.344, 94.939),
+math.complex(230.625, 95.762),
+math.complex(229.82, 96.157),
+math.complex(228.793, 95.355),
+math.complex(228.02, 91.492),
+math.complex(227.008, 83.919),
+math.complex(226.262, 76.343),
+math.complex(226.25, 71.919),
+math.complex(226.742, 72.555),
+math.complex(228.035, 76.256),
+math.complex(228.734, 81.357),
+math.complex(229.156, 86.221),
+math.complex(229.039, 88.829),
+math.complex(228.035, 91.82),
+math.complex(225.621, 94.591),
+math.complex(223.457, 92.323),
+math.complex(222.879, 87.949),
+math.complex(225.23, 84.418),
+math.complex(226.34, 83.824),
+math.complex(226.992, 84.169),
+math.complex(227.266, 84.966),
+math.complex(227.02, 87.674),
+math.complex(224.793, 90.611),
+math.complex(222.027, 92.788),
+math.complex(220.125, 93.349),
+math.complex(218.723, 90.968),
+math.complex(218.02, 86.964),
+math.complex(217.332, 84.052),
+math.complex(215.535, 83.143),
+math.complex(213.02, 85.045),
+math.complex(212.32, 87.965),
+math.complex(212.859, 91.23),
+math.complex(214.004, 94.113),
+math.complex(213.938, 93.286),
+math.complex(213.734, 91.234),
+math.complex(213.129, 88.543),
+math.complex(212.414, 86.208),
+math.complex(211.355, 83.753),
+math.complex(210.176, 82.889),
+math.complex(208.359, 85.51),
+math.complex(208.523, 89.319),
+math.complex(209.102, 92.684),
+math.complex(208.645, 94.624),
+math.complex(206.781, 93.162),
+math.complex(204.355, 89.228),
+math.complex(202.629, 85.261),
+math.complex(202.777, 83.4),
+math.complex(203.285, 84.164),
+math.complex(204.539, 87.234),
+math.complex(203.813, 90.686),
+math.complex(201.863, 93.361),
+math.complex(199.461, 94.113),
+math.complex(197.57, 92.788),
+math.complex(196.484, 90.412),
+math.complex(196.199, 87.803),
+math.complex(196.652, 85.693),
+math.complex(198.949, 83.907),
+math.complex(198.184, 83.4),
+math.complex(199.281, 82.615),
+math.complex(200.359, 82.133),
+math.complex(201.418, 81.892),
+math.complex(202.539, 82.665),
+math.complex(203.285, 84.297),
+math.complex(203.105, 85.161),
+math.complex(202.254, 87.022),
+math.complex(199.918, 89.56),
+math.complex(197.309, 92.082),
+math.complex(195.191, 93.876),
+math.complex(193.336, 94.624),
+math.complex(192.172, 92.215),
+math.complex(191.754, 87.949),
+math.complex(191.098, 84.061),
+math.complex(189, 81.614),
+math.complex(188.066, 81.639),
+math.complex(186.902, 82.175),
+math.complex(184.715, 84.248),
+math.complex(183.742, 87.296),
+math.complex(183.746, 90.607),
+math.complex(184.406, 93.606),
+math.complex(184.395, 92.983),
+math.complex(184.141, 91.417),
+math.complex(183.895, 89.141),
+math.complex(183.223, 85.174),
+math.complex(182.871, 81.73),
+math.complex(182.68, 77.614),
+math.complex(182.605, 72.131),
+math.complex(182.391, 70.125),
+math.complex(183.398, 67.628),
+math.complex(184.043, 94.001),
+math.complex(168.254, 93.519),
+math.complex(164.246, 79.828),
+math.complex(150.484, 79.363),
+math.complex(150.734, 78.549),
+math.complex(155.695, 78.578),
+math.complex(158.563, 78.727),
+math.complex(161.598, 79.068),
+math.complex(163.738, 80.081),
+math.complex(164.488, 82.474),
+math.complex(164.992, 87.13),
+math.complex(165.5, 89.648),
+math.complex(166.527, 91.463),
+math.complex(166.785, 92.107),
+math.complex(166.289, 92.24),
+math.complex(165.996, 91.695),
+math.complex(165.918, 90.661),
+math.complex(164.23, 84.941),
+math.complex(161.305, 73.61),
+math.complex(158.121, 63.138),
+math.complex(157.871, 62.477),
+math.complex(155.191, 68.397),
+math.complex(154.301, 70.748),
+math.complex(153.145, 74.154),
+math.complex(151.93, 76.737),
+math.complex(148.813, 82.906),
+math.complex(146.98, 87.159),
+math.complex(145.879, 91.562),
+math.complex(138.18, 103.38),
+math.complex(136.961, 102.803),
+math.complex(135.879, 101.889),
+math.complex(135.086, 100.805),
+math.complex(134.664, 99.496),
+math.complex(134.559, 97.207),
+math.complex(134.324, 95.999),
+math.complex(133.336, 95.023),
+math.complex(133.324, 92.779),
+math.complex(133.227, 86.021),
+math.complex(132.707, 82.611),
+math.complex(131.285, 79.699),
+math.complex(128.805, 78.553),
+math.complex(124.797, 77.95),
+math.complex(121.18, 78.025),
+math.complex(119.547, 78.935),
+math.complex(120.551, 79.221),
+math.complex(122.824, 79.109),
+math.complex(124.242, 78.885),
+math.complex(126.977, 77.643),
+math.complex(129, 75.774),
+math.complex(130.328, 73.302),
+math.complex(131.059, 70.037),
+math.complex(131.172, 66.245),
+math.complex(130.113, 59.732),
+math.complex(129.988, 58.083),
+math.complex(130.008, 57.248),
+math.complex(132.816, 55.462),
+math.complex(113.512, 79.089),
+math.complex(108.805, 79.587),
+math.complex(103.477, 79.824),
+math.complex(100.859, 79.832),
+math.complex(99.227, 79.595),
+math.complex(99.453, 78.906),
+math.complex(99.711, 77.572),
+math.complex(100.246, 75.695),
+math.complex(100.148, 72.933),
+math.complex(100.23, 71.338),
+math.complex(100.758, 70.411),
+math.complex(104.098, 69.713),
+math.complex(111.984, 68.625),
+math.complex(110.695, 68.791),
+math.complex(106.367, 69.83),
+math.complex(104.098, 70.336),
+math.complex(102.223, 70.876),
+math.complex(99.805, 72.048),
+math.complex(98.461, 73.73),
+math.complex(98.43, 75.275),
+math.complex(98.719, 77.925),
+math.complex(99.027, 83.537),
+math.complex(99.293, 86.91),
+math.complex(99.227, 90.059),
+math.complex(99.613, 88.933),
+math.complex(99.75, 88.052),
+math.complex(99.48, 84.397),
+math.complex(99.477, 79.284),
+math.complex(99.656, 74.71),
+math.complex(100.008, 71.653),
+math.complex(100.559, 70.918),
+math.complex(101.527, 70.474),
+math.complex(101.906, 70.503),
+math.complex(100.098, 71.022),
+math.complex(95.727, 71.72),
+math.complex(88.008, 73.012),
+math.complex(83.742, 73.851),
+math.complex(81.109, 74.748),
+math.complex(82.328, 75.749),
+math.complex(83.602, 76.904),
+math.complex(84.363, 77.959),
+math.complex(85.23, 79.836),
+math.complex(85.961, 83.242),
+math.complex(86.742, 86.81),
+math.complex(87.715, 89.913),
+math.complex(88.191, 90.703),
+math.complex(88.508, 90.894),
+math.complex(88.773, 87.944),
+math.complex(89.035, 85.045),
+math.complex(88.707, 81.398),
+math.complex(87.996, 76.679),
+math.complex(87.836, 73.846),
+math.complex(87.566, 73.651),
+math.complex(87.73, 75.155),
+math.complex(87.219, 80.181),
+math.complex(86.547, 83.4),
+math.complex(85.258, 86.702),
+math.complex(83.434, 89.635),
+math.complex(81.109, 91.845),
+math.complex(77.438, 93.041),
+math.complex(73.348, 92.563),
+math.complex(69.82, 90.578),
+math.complex(67.844, 87.251),
+math.complex(67.391, 83.861),
+math.complex(67.566, 80.555),
+math.complex(68.527, 77.423),
+math.complex(70.422, 74.727),
+math.complex(71.969, 73.589),
+math.complex(73.242, 72.974),
+math.complex(74.375, 72.708),
+math.complex(75.496, 73.473),
+math.complex(75.438, 74.436),
+math.complex(74.598, 75.94),
+math.complex(73.621, 77.107),
+math.complex(70.367, 79.305),
+math.complex(66.332, 80.613),
+math.complex(60.492, 81.556),
+math.complex(57.559, 81.905),
+math.complex(54.969, 81.917),
+math.complex(52.363, 81.959),
+math.complex(50.75, 82.403),
+math.complex(51.23, 82.594),
+math.complex(53.488, 82.686),
+math.complex(55.508, 82.715),
+math.complex(58.301, 82.553),
+math.complex(59.426, 82.657),
+math.complex(60, 84.061),
+math.complex(59.957, 87.641),
+math.complex(59.684, 91.114),
+math.complex(60.184, 93.83),
+math.complex(60.063, 93.386),
+math.complex(59.645, 90.092),
+math.complex(59.148, 86.175),
+math.complex(58.82, 82.071),
+math.complex(58.516, 77.273),
+math.complex(58.063, 73.838),
+math.complex(57.879, 72.164),
+math.complex(57.766, 72.679),
+math.complex(57.137, 77.427),
+math.complex(56.25, 84.106),
+math.complex(54.848, 87.998),
+math.complex(51.77, 91.076),
+math.complex(46.316, 93.299),
+math.complex(44.434, 94.262),
+math.complex(46.441, 94.121),
+math.complex(49.059, 92.41),
+math.complex(47.879, 89.747),
+math.complex(44.934, 86.615),
+math.complex(43.094, 84.443),
+math.complex(42.988, 83.575),
+math.complex(43.613, 82.607),
+math.complex(44.441, 81.872),
+math.complex(45.273, 81.739),
+math.complex(46.164, 81.934),
+math.complex(45.691, 82.146),
+math.complex(45.148, 82.221),
+math.complex(45.617, 83.741),
+math.complex(45.492, 84.999),
+math.complex(44.117, 88.526),
+math.complex(43.066, 90.225),
+math.complex(41.566, 91.679),
+math.complex(39.293, 93.187),
+math.complex(38.504, 93.631),
+math.complex(37.105, 92.352),
+math.complex(35.992, 88.426),
+math.complex(35.516, 84.181),
+math.complex(35.949, 81.639),
+math.complex(36.23, 82.216),
+math.complex(36, 87.616),
+math.complex(35.586, 89.24),
+math.complex(35.133, 90.686),
+math.complex(33.676, 92.925),
+math.complex(31.359, 94.649),
+math.complex(30.559, 94.636),
+math.complex(29.785, 93.731),
+math.complex(29.191, 91.841),
+math.complex(28.996, 90.034),
+math.complex(29.027, 87.841),
+math.complex(29.316, 85.211),
+math.complex(29.887, 84.588),
+math.complex(30.313, 84.032),
+math.complex(30.094, 83.271),
+math.complex(29.723, 82.258),
+math.complex(29.488, 82.848),
+math.complex(29.641, 82.893),
+math.complex(30.242, 80.925),
+math.complex(30.965, 80.098),
+math.complex(30.82, 79.674),
+math.complex(30.273, 79.691),
+math.complex(30.574, 80.796),
+math.complex(30.059, 82.761),
+math.complex(28.371, 88.264),
+math.complex(26.648, 91.778),
+math.complex(24.379, 95.234),
+math.complex(22.121, 98.275),
+math.complex(19.68, 100.472),
+math.complex(17.188, 102.666),
+math.complex(16.164, 103.658),
+math.complex(15.285, 105.112),
+math.complex(15.852, 107.434),
+math.complex(17.277, 109.607),
+math.complex(19.25, 111.326),
+math.complex(21.445, 112.253),
+math.complex(22.895, 112.178),
+math.complex(24.012, 111.476),
+math.complex(24.734, 110.288),
+math.complex(24.969, 108.826),
+math.complex(24.711, 106.362),
+math.complex(23.789, 102.977),
+math.complex(22.652, 99.351),
+math.complex(22.246, 96.896),
+math.complex(21.941, 92.896),
+math.complex(21.414, 89.731),
+math.complex(20.176, 83.94),
+math.complex(19.879, 81.128),
+    ]
+
+
+    var N = points.length
+
+
+    var inp;
+    inp= new Array();
+    for(var k = 0; k<N; k++)
+    {
+        inp[k]= math.multiply(math.conj(math.subtract(points[k], 0)), 1/50)
+    }
+
+    console.log(inp)
+
+    var result;
+    result = new Array();
+
+    for (var k = 0; k < N; k++){
+      var suma = math.complex(0, 0);
+       for (var j = 0; j < N; j++)
+        {
+            var integers = -2*j*k;
+            my_exponent = math.complex(0.0, Math.PI*integers/N);
+            suma =math.add(suma, math.multiply(inp[j], math.exp(my_exponent)));
+        }
+      
+       result.push(suma);
+    }
+
+
+    var flat_result = "["
+
+    for (var k = 0; k < N; k++)
+    {
+        flat_result += result[k].re  + (result[k].im < 0 ? "":"+") + result[k].im + "i, "
+    }
+
+    flat_result +="]"
+
+    console.log(flat_result)
+
+
+    for (var k = 0; k < N; k++){
+      var suma = math.complex(0, 0);
+       for (var j = 0; j < N; j++)
+        {
+            var integers = 2*j*k;
+            my_exponent = math.complex(0.0, Math.PI*integers/N);
+            suma =math.add(suma, math.multiply(result[j], math.exp(my_exponent)));
+        }
+      
+       inp[k]=math.divide(suma, N);
+    }
+
+
+ccctx.fillStyle = "rgba(0,0,0,0)";
+ccctx.clearRect(0,0,ccc.width, ccc.height);
+ccctx.fillRect(0,0,ccc.width, ccc.height);
+ccctx.strokeStyle="#00FF00";
+ccctx.translate(0.5, 0.5);
+ccctx.lineWidth=2;
+ccctx.beginPath();
+ccctx.moveTo(600+ 200*inp[0].re, 600 - 200*inp[0].im);
+
+for(var k =0; k<N; k++)
+ccctx.lineTo(600+ 200*inp[k].re, 600 - 200*inp[k].im);
+
+ccctx.stroke();
+
+
+ var starttime = performance.now();
+ var cstep =0;
+
+ function draw(timestamp)
+ {
+
+    step = Math.round((timestamp-starttime)/20);
+    if(step == cstep)
+    {
+        window.requestAnimationFrame(draw);
+        return;
+    }
+
+    if(step >=N)
+    {
+        starttime=performance.now();
+        window.requestAnimationFrame(draw);
+        return;
+    }
+    cstep = step;
+
+    ctx.clearRect(0, 0, c.width, c.height);
+    cctx.fillStyle = "rgba(255,255,255,0.2)";
+    cctx.fillRect(0, 0, c.width, c.height);
+    cctx.strokeStyle="#000000";
+    cctx.lineWidth=5;
+
+    cctx.beginPath();
+
+    cctx.moveTo(600+ 200*inp[Math.abs(step-10)].re, 600 - 200*inp[Math.abs(step-10)].im);
+    for(var k = Math.abs(step-10); k<=step; k++)
+    {
+        cctx.lineTo(600+ 200*inp[k].re, 600 - 200*inp[k].im);
+    }
+    cctx.stroke();
+    ctx.beginPath();
+
+    var k = step;
+    var lastx=600;
+    var lasty=600;
+
+      for(var j = 0; j < N; j++)
+      {
+            var integers = 2*j*k;
+            my_exponent = math.complex(0.0, Math.PI*integers/N);
+            buf =math.multiply(result[j], math.exp(my_exponent));
+            suma =math.add(suma, buf);
+
+            buf=math.multiply(buf, 200/N);
+            ctx.strokeStyle="#0000FF";
+
+            if(math.abs(buf)>1 && j!=0)
+            {
+             drawCircle(lastx, lasty, math.abs(buf));
+
+            ctx.strokeStyle="#FF0000";
+            ctx.moveTo(lastx, lasty);            
+            lastx+=(buf.re);
+            lasty-=(buf.im);
+            ctx.lineTo(lastx, lasty);
+            ctx.stroke();
+            }
+            else
+            {
+            lastx+=(buf.re);
+            lasty-=(buf.im);
+            }
+      }
+      ctx.strokeStyle="#000000";
+      drawCircleFill(lastx, lasty, 3);
+
+   
+       
+    window.requestAnimationFrame(draw);
+    
+ }
+
+
+window.requestAnimationFrame(draw);
+
+
+
+</script>
+</body>
+</html>

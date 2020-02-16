@@ -1,0 +1,4 @@
+flask
+requests
+flask-recaptcha
+gunicorn
