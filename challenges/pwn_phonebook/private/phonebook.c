@@ -120,6 +120,7 @@ int main() {
                 break;
             default:
                 printf("Unknown function\n");
+                return 0;
         }
     }
 }
